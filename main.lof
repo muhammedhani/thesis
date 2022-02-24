@@ -1,0 +1,27 @@
+\babel@toc {english}{}\relax 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Project Time Plan.}}{4}{figure.1.1}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces An Example of a VANET \cite {obaidat2015modeling}.}}{6}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Communication Scenarios in VANETs \cite {rodrigues2020advances}.}}{7}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Classification of VANET Applications \cite {obaidat2016smart}.}}{8}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces IoV Network Architecture \cite {buyya2016internet}.}}{10}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces A Taxonomy of IoV Applications \cite {buyya2016internet}.}}{11}{figure.2.5}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Overview of the field of Cryptology \cite {paar2009understanding}.}}{12}{figure.2.6}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Communication Over an Insecure Channel \cite {paar2009understanding}.}}{13}{figure.2.7}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Symmetric-key Cryptosystem \cite {paar2009understanding}.}}{13}{figure.2.8}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Basic Protocol for Public-key Encryption \cite {paar2009understanding}.}}{14}{figure.2.9}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Hybrid Cryptography Algorithm \cite {paar2009understanding}.}}{15}{figure.2.10}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Blockchain Structure \cite {paper11}.}}{17}{figure.2.11}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Sample Chain \cite {shrestha2020new}.}}{17}{figure.2.12}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Single Block Content \cite {shrestha2020new}.}}{18}{figure.2.13}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Blockchain Types \cite {blockchain_types}.}}{18}{figure.2.14}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Blockchain Generations \cite {blockchain_gen}.}}{22}{figure.2.15}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Cloud Deployment Types.}}{25}{figure.2.16}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Fog Architecture \cite {fogref}.}}{25}{figure.2.17}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces An Example of OBU \cite {oburef}.}}{28}{figure.2.18}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Logical Block Design for a fully integrable OBU device \cite {petracca2013board}.}}{28}{figure.2.19}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces An Example of RSU \cite {rsuref}.}}{29}{figure.2.20}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces OSI and TCP/IP reference models: (a) OSI model, (b) TCP/IP model \cite {alani2014guide}.}}{30}{figure.2.21}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces (a) The architecture of a typical IoV system. (b) The network model for IoV \cite {paper1}.}}{34}{figure.2.22}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Adapting BGG for the EBIoV architecture \cite {paper9}.}}{39}{figure.2.23}%

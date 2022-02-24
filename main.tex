@@ -1,0 +1,72 @@
+\documentclass[14pt,final]{tsukuthesis}
+\include{macros/style}
+\include{macros/use_packages}
+
+\geometry{
+	a4paper,
+	total={170mm,257mm},
+	left=20mm,
+	top=20mm,
+}
+
+% This will tell the compiler to do the header style, page and spacing between the header and text
+\pagestyle{fancy}
+\fancyhead[LO]{\leftmark}
+\fancyhead[RO]{\thepage}
+\fancyfoot[CO]{}
+
+\setlength{\headheight}{15.2pt}
+\clubpenalty=10000
+\widowpenalty=10000
+\setcounter{secnumdepth}{4}
+
+\setmainfont{Times New Roman}
+
+\newlist{mylist}{itemize}{4}
+\setlist[mylist,1]{%
+	label={},
+	noitemsep,
+	leftmargin=0.2in,
+}
+\setlist[mylist]{%
+	label={},
+	noitemsep,
+}
+
+\newcommand*{\sectionformat}{\centering\huge}
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\begin{document}
+	\pagenumbering{roman}
+	\graphicspath{images/}
+	
+	\cleardoublepage
+	
+	\input{Preamble/Frontpage}
+	\input{Preamble/Blank}
+	\input{Preamble/Acknowledgements}
+	\input{Preamble/Contents}
+	\input{Preamble/Lists}
+	\input{Preamble/Abbreviations}
+	\input{Preamble/Abstract}
+	\input{Preamble/ChapterMods}
+	
+	\input{Chapter1/Chapter1}
+	\input{Chapter2/Chapter2}
+	%\input{Chapter3/Chapter3}
+	%\input{Chapter4/Chapter4}
+	%\input{Chapter5/Chapter5}
+	%\input{Chapter6/Chapter6}
+	%\input{Chapter7/Chapter7}
+	%\input{Chapter8/Chapter8}
+	%\input{Chapter9/Chapter9}
+	% Keep adding folders as to your desires
+	
+	%\addcontentsline{toc}{chapter}{Bibliography}
+	\bibliographystyle{plain}
+	\bibliography{references}
+\end{document}}

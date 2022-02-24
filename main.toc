@@ -1,0 +1,89 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{Acknowledgements}{iii}{Doc-Start}%
+\contentsline {chapter}{List of Figures}{vi}{chapter*.2}%
+\contentsline {chapter}{List of Tables}{vii}{chapter*.3}%
+\contentsline {section}{Abbreviations}{viii}{section*.4}%
+\contentsline {section}{Abstract \& Keywords}{xi}{table.0.1}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Problem Statement}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Motivations}{1}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Project Aim}{2}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Objectives}{2}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Project Scope}{2}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Proposed Solution}{2}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Project Phases}{2}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Project Time Plan}{4}{section.1.9}%
+\contentsline {chapter}{\numberline {2}Literature Review}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Background Information \& Related Work}{5}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Intelligent Transportation Systems (ITS)}{5}{subsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.1}What is ITS?}{5}{subsubsection.2.1.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.2}ITS Applications}{6}{subsubsection.2.1.1.2}%
+\contentsline {subsection}{\numberline {2.1.2}Vehicular Ad-Hoc Network (VANET)}{6}{subsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.1}What is VANET?}{6}{subsubsection.2.1.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.2.2}VANET Applications}{7}{subsubsection.2.1.2.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.3}Security Requirements and Challenges for VANET \cite {paul2016intelligent}}{8}{subsubsection.2.1.2.3}%
+\contentsline {subsection}{\numberline {2.1.3}Internet of Vehicles (IoV)}{9}{subsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.3.1}What is IoV?}{9}{subsubsection.2.1.3.1}%
+\contentsline {subsubsection}{\numberline {2.1.3.2}IoV Network Architecture \cite {buyya2016internet}}{9}{subsubsection.2.1.3.2}%
+\contentsline {subsubsection}{\numberline {2.1.3.3}IoV Characteristics and Challenges \cite {buyya2016internet}}{10}{subsubsection.2.1.3.3}%
+\contentsline {subsubsection}{\numberline {2.1.3.4}IoV Applications \cite {buyya2016internet}}{11}{subsubsection.2.1.3.4}%
+\contentsline {subsection}{\numberline {2.1.4}Cryptography \cite {paar2009understanding}}{12}{subsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.4.1}Cryptography Terminology}{12}{subsubsection.2.1.4.1}%
+\contentsline {subsubsection}{\numberline {2.1.4.2}Symmetric Cryptography}{13}{subsubsection.2.1.4.2}%
+\contentsline {subsubsection}{\numberline {2.1.4.3}Asymmetric Cryptography}{14}{subsubsection.2.1.4.3}%
+\contentsline {paragraph}{\numberline {2.1.4.3.1}Principles of Asymmetric Cryptography:}{14}{paragraph.2.1.4.3.1}%
+\contentsline {subsubsection}{\numberline {2.1.4.4}Hybrid Cryptography}{14}{subsubsection.2.1.4.4}%
+\contentsline {subsubsection}{\numberline {2.1.4.5}Hashing}{15}{subsubsection.2.1.4.5}%
+\contentsline {subsection}{\numberline {2.1.5}Blockchain}{16}{subsection.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.5.1}What is Blockchain?}{16}{subsubsection.2.1.5.1}%
+\contentsline {subsubsection}{\numberline {2.1.5.2}Blockchain Features \cite {shrestha2020new}}{16}{subsubsection.2.1.5.2}%
+\contentsline {subsubsection}{\numberline {2.1.5.3}Blockchain Structure \cite {shrestha2020new}}{16}{subsubsection.2.1.5.3}%
+\contentsline {paragraph}{\numberline {2.1.5.3.1}How the nonce is calculated?}{17}{paragraph.2.1.5.3.1}%
+\contentsline {subsubsection}{\numberline {2.1.5.4}Blockchain Types \cite {blockchain_types}}{18}{subsubsection.2.1.5.4}%
+\contentsline {subsubsection}{\numberline {2.1.5.5}Consensus Algorithms \cite {shrestha2020new}}{20}{subsubsection.2.1.5.5}%
+\contentsline {subsubsection}{\numberline {2.1.5.6}Advantages and Disadvantages of consensus Algorithms \cite {shrestha2020new}}{21}{subsubsection.2.1.5.6}%
+\contentsline {subsubsection}{\numberline {2.1.5.7}Generations of Blockchain \cite {efanov2018all}}{22}{subsubsection.2.1.5.7}%
+\contentsline {subsection}{\numberline {2.1.6}Cloud Computing}{23}{subsection.2.1.6}%
+\contentsline {subsubsection}{\numberline {2.1.6.1}What is Cloud?}{23}{subsubsection.2.1.6.1}%
+\contentsline {subsubsection}{\numberline {2.1.6.2}How Does Cloud Computing Work?}{23}{subsubsection.2.1.6.2}%
+\contentsline {subsubsection}{\numberline {2.1.6.3}Common Service Models of Cloud Computing \cite {cloudref2}}{24}{subsubsection.2.1.6.3}%
+\contentsline {subsubsection}{\numberline {2.1.6.4}Common Cloud Deployment Types}{24}{subsubsection.2.1.6.4}%
+\contentsline {subsection}{\numberline {2.1.7}Fog Computing \cite {fogref}}{25}{subsection.2.1.7}%
+\contentsline {subsubsection}{\numberline {2.1.7.1}What is Fog Computing}{25}{subsubsection.2.1.7.1}%
+\contentsline {subsubsection}{\numberline {2.1.7.2}Fog Architecture}{25}{subsubsection.2.1.7.2}%
+\contentsline {subsubsection}{\numberline {2.1.7.3}Why Fog Computing?}{26}{subsubsection.2.1.7.3}%
+\contentsline {subsection}{\numberline {2.1.8}Hardware Components}{28}{subsection.2.1.8}%
+\contentsline {subsubsection}{\numberline {2.1.8.1}On-Board Unit (OBU)}{28}{subsubsection.2.1.8.1}%
+\contentsline {paragraph}{\numberline {2.1.8.1.1}Logical block design:}{28}{paragraph.2.1.8.1.1}%
+\contentsline {paragraph}{\numberline {2.1.8.1.2}Why must we have an OBU?}{29}{paragraph.2.1.8.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.8.2}Road-Side Unit (RSU)}{29}{subsubsection.2.1.8.2}%
+\contentsline {paragraph}{\numberline {2.1.8.2.1}Main Functionalities of RSU:}{29}{paragraph.2.1.8.2.1}%
+\contentsline {subsection}{\numberline {2.1.9}Computer Network Concepts}{30}{subsection.2.1.9}%
+\contentsline {subsubsection}{\numberline {2.1.9.1}TCP/IP Model:}{30}{subsubsection.2.1.9.1}%
+\contentsline {subsubsection}{\numberline {2.1.9.2}TCP/IP model layers:}{30}{subsubsection.2.1.9.2}%
+\contentsline {subsection}{\numberline {2.1.10}Common Threats (Attacks)}{31}{subsection.2.1.10}%
+\contentsline {subsection}{\numberline {2.1.11}Simulation Tools and Frameworks}{32}{subsection.2.1.11}%
+\contentsline {subsubsection}{\numberline {2.1.11.1}OMNET++}{32}{subsubsection.2.1.11.1}%
+\contentsline {paragraph}{\numberline {2.1.11.1.1}Other OMNET++ Visualization Tools:}{32}{paragraph.2.1.11.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.11.2}Veins Framework}{32}{subsubsection.2.1.11.2}%
+\contentsline {subsubsection}{\numberline {2.1.11.3}SUMO Framework}{33}{subsubsection.2.1.11.3}%
+\contentsline {subsubsection}{\numberline {2.1.11.4}FogNetSim++ Framework}{33}{subsubsection.2.1.11.4}%
+\contentsline {subsubsection}{\numberline {2.1.11.5}AVISPA Tool}{33}{subsubsection.2.1.11.5}%
+\contentsline {section}{\numberline {2.2}Related Work}{34}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}A lightweight anonymous cross-regional mutual authentication scheme using blockchain technology for internet of vehicles \cite {paper1}}{34}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Efficient Distributed Admission and Revocation using Blockchain for Cooperative ITS \cite {paper2}}{34}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}An Improved Authentication Scheme for Internet of Vehicles Based on Blockchain Technology \cite {paper3}}{35}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}BlockChain: A Distributed Solution to Automotive Security and Privacy \cite {paper4}}{36}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Blockchain-based Internet of Vehicles: Distributed Network Architecture and Performance Analysis \cite {paper6}}{36}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}Blockchain-Driven Trusted Data Sharing with Privacy-Protection in IoT \cite {paper5}}{37}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.7}A Scalable Protocol for Driving Trust Management in Internet of Vehicles with Blockchain \cite {paper7}}{38}{subsection.2.2.7}%
+\contentsline {subsection}{\numberline {2.2.8}A Blockchain-Based Multi-Factor Authentication Model for a Cloud-Enabled Internet of Vehicles \cite {paper8}}{38}{subsection.2.2.8}%
+\contentsline {subsection}{\numberline {2.2.9}Enhanced IoV Security Network by Using Blockchain Governance Game \cite {paper9}}{39}{subsection.2.2.9}%
+\contentsline {subsection}{\numberline {2.2.10}Implementing blockchain technology in the Internet of Vehicle (IoV) \cite {paper10}}{39}{subsection.2.2.10}%
+\contentsline {subsection}{\numberline {2.2.11}EASBF: An efficient authentication scheme over blockchain for fog computing-enabled internet of vehicles \cite {paper11}}{40}{subsection.2.2.11}%
+\contentsline {subsection}{\numberline {2.2.12}Blockchain Meets VANET: An Architecture for Identity and Location Privacy Protection in VANET \cite {paper12}}{41}{subsection.2.2.12}%
+\contentsline {subsection}{\numberline {2.2.13}Hybrid Cryptographic Protocol for Secure Vehicle Data Sharing over Consortium Blockchain \cite {paper13}}{41}{subsection.2.2.13}%
+\contentsline {subsection}{\numberline {2.2.14}A security scheme based on blockchain and a hybrid cryptosystem to reduce packet loss in IoV \cite {paper14}}{41}{subsection.2.2.14}%
+\contentsline {subsection}{\numberline {2.2.15}A secure and computationally efficient authentication and key agreement scheme for Internet of Vehicles \cite {paper15}}{42}{subsection.2.2.15}%
+\contentsline {chapter}{Bibliography}{44}{chapter*.5}%

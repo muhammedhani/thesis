@@ -1,0 +1,267 @@
+\begin{thebibliography}{10}
+
+\bibitem{oburef}
+A flexible v2x obu (on-board unit).
+\newblock \url{https://www.unex.com.tw/obu/}.
+\newblock Accessed: Feb. 2022.
+
+\bibitem{omnet_sim}
+Omnet++ simulationmanual.
+\newblock \url{https://doc.omnetpp.org/omnetpp/SimulationManual.pdf}.
+\newblock Accessed: Nov. 2021.
+
+\bibitem{openscenegraph}
+Openscenegraph.
+\newblock \url{http://www.openscenegraph.org/index.php/documentation}.
+\newblock Accessed: Nov. 2021.
+
+\bibitem{rsuref}
+A rugged, v2x rsu (roadside unit).
+\newblock \url{https://www.unex.com.tw/rsu/}.
+\newblock Accessed: Feb. 2022.
+
+\bibitem{sumo}
+Simulation of user mobility - sumo.
+\newblock \url{https://sumo.dlr.de/docs/}.
+\newblock Accessed: Nov. 2021.
+
+\bibitem{cloudref1}
+What is the cloud? | cloud definition.
+\newblock \url{https://www.cloudflare.com/}.
+\newblock Accessed: Nov. 2021.
+
+\bibitem{alani2014guide}
+Mohammed~M Alani.
+\newblock Osi model.
+\newblock In {\em Guide to OSI and TCP/IP Models}, pages 5--17. Springer, 2014.
+
+\bibitem{bouk2015hybrid}
+Safdar~Hussain Bouk, Gwanghyeon Kim, Syed~Hassan Ahmed, and Dongkyun Kim.
+\newblock Hybrid adaptive beaconing in vehicular ad hoc networks: a survey.
+\newblock {\em International Journal of Distributed Sensor Networks},
+  11(5):390360, 2015.
+
+\bibitem{paper13}
+Kei~Leo Brousmiche, Antoine Durand, Thomas Heno, Christian Poulain, Antoine
+  Dalmieres, and Elyes~Ben Hamida.
+\newblock Hybrid cryptographic protocol for secure vehicle data sharing over a
+  consortium blockchain.
+\newblock In {\em 2018 IEEE International Conference on Internet of Things
+  (iThings) and IEEE Green Computing and Communications (GreenCom) and IEEE
+  Cyber, Physical and Social Computing (CPSCom) and IEEE Smart Data
+  (SmartData)}, pages 1281--1286. IEEE, 2018.
+
+\bibitem{buyya2016internet}
+Rajkumar Buyya and Amir~Vahid Dastjerdi.
+\newblock {\em Internet of Things: Principles and paradigms}.
+\newblock Elsevier, 2016.
+
+\bibitem{paper14}
+Won~Jin Chung and Tae~Ho Cho.
+\newblock A security scheme based on blockchain and a hybrid cryptosystem to
+  reduce packet loss in iov.
+\newblock {\em International Journal of Advanced Technology and Engineering
+  Exploration}, 8(81):945, 2021.
+
+\bibitem{blockchain_gen}
+Stephan Cummings.
+\newblock The four blockchain generations.
+\newblock
+  \url{https://medium.com/the-capital/the-four-blockchain-generations-5627ef666f3b},
+  February 2019.
+\newblock Accessed: Nov. 2021.
+
+\bibitem{paper4}
+Ali Dorri, Marco Steger, Salil~S Kanhere, and Raja Jurdak.
+\newblock Blockchain: A distributed solution to automotive security and
+  privacy.
+\newblock {\em IEEE Communications Magazine}, 55(12):119--125, 2017.
+
+\bibitem{paper11}
+Merzougui~Salah Eddine, Mohamed~Amine Ferrag, Othmane Friha, and Leandros
+  Maglaras.
+\newblock Easbf: An efficient authentication scheme over blockchain for fog
+  computing-enabled internet of vehicles.
+\newblock {\em Journal of Information Security and Applications}, 59:102802,
+  2021.
+
+\bibitem{efanov2018all}
+Dmitry Efanov and Pavel Roschin.
+\newblock The all-pervasiveness of the blockchain technology.
+\newblock {\em Procedia computer science}, 123:116--121, 2018.
+
+\bibitem{osgearth}
+Glenn.
+\newblock osgearth - 3d mapping engine & c++ sdk.
+\newblock \url{http://docs.osgearth.org/en/latest/}, 2020.
+\newblock Accessed: Nov. 2021.
+
+\bibitem{paper7}
+Uzair Javaid, Muhammad~Naveed Aman, and Biplab Sikdar.
+\newblock A scalable protocol for driving trust management in internet of
+  vehicles with blockchain.
+\newblock {\em IEEE Internet of Things Journal}, 7(12):11815--11829, 2020.
+
+\bibitem{paper5}
+Tigang Jiang, Hua Fang, and Honggang Wang.
+\newblock Blockchain-based internet of vehicles: Distributed network
+  architecture and performance analysis.
+\newblock {\em IEEE Internet of Things Journal}, 6(3):4640--4649, 2018.
+
+\bibitem{blockchain_types}
+Eugenia~Wang Kathleen E.~Wegrzyn.
+\newblock Types of blockchain: Public, private, or something in between.
+\newblock
+  \url{https://www.foley.com/en/insights/publications/2021/08/types-of-blockchain-public-private-between},
+  August 2021.
+\newblock Accessed: Oct. 2021.
+
+\bibitem{paper8}
+Victor~R Kebande, Feras~M Awaysheh, Richard~A Ikuesan, Sadi~A Alawadi, and
+  Mohammad~Dahman Alshehri.
+\newblock A blockchain-based multi-factor authentication model for a
+  cloud-enabled internet of vehicles.
+\newblock {\em Sensors}, 21(18):6018, 2021.
+
+\bibitem{paper9}
+Song-Kyoo~Amang Kim.
+\newblock Enhanced iov security network by using blockchain governance game.
+\newblock {\em Mathematics}, 9(2):109, 2021.
+
+\bibitem{paper10}
+Mirador Labrador and Weiyan Hou.
+\newblock Implementing blockchain technology in the internet of vehicle (iov).
+\newblock In {\em 2019 International Conference on Intelligent Computing and
+  its Emerging Applications (ICEA)}, pages 5--10. IEEE, 2019.
+
+\bibitem{paper2}
+Noureddine Lasla, Mohamed Younis, Wassim Znaidi, and Dhafer~Ben Arbia.
+\newblock Efficient distributed admission and revocation using blockchain for
+  cooperative its.
+\newblock In {\em 2018 9th IFIP international conference on new technologies,
+  mobility and security (NTMS)}, pages 1--5. IEEE, 2018.
+
+\bibitem{paper12}
+Hui Li, Lishuang Pei, Dan Liao, Gang Sun, and Du~Xu.
+\newblock Blockchain meets vanet: An architecture for identity and location
+  privacy protection in vanet.
+\newblock {\em Peer-to-Peer Networking and Applications}, 12(5):1178--1193,
+  2019.
+
+\bibitem{paper6}
+Zhaofeng Ma, Lingyun Wang, and Weizhe Zhao.
+\newblock Blockchain-driven trusted data sharing with privacy protection in iot
+  sensor network.
+\newblock {\em IEEE Sensors Journal}, 21(22):25472--25479, 2020.
+
+\bibitem{paper1}
+Xiangwei Meng, Jianbo Xu, Wei Liang, Zisang Xu, and Kuan-Ching Li.
+\newblock A lightweight anonymous cross-regional mutual authentication scheme
+  using blockchain technology for internet of vehicles.
+\newblock {\em Computers \& Electrical Engineering}, 95:107431, 2021.
+
+\bibitem{obaidat2016smart}
+Mohammad Obaidat and Petros Nicopolitidis.
+\newblock {\em Smart cities and homes: Key enabling technologies}.
+\newblock Morgan Kaufmann, 2016.
+
+\bibitem{obaidat2015modeling}
+Mohammad~S Obaidat, Faouzi Zarai, and Petros Nicopolitidis.
+\newblock {\em Modeling and simulation of computer networks and systems:
+  Methodologies and applications}.
+\newblock Morgan Kaufmann, 2015.
+
+\bibitem{paar2009understanding}
+Christof Paar and Jan Pelzl.
+\newblock {\em Understanding cryptography: a textbook for students and
+  practitioners}.
+\newblock Springer Science \& Business Media, 2009.
+
+\bibitem{paul2016intelligent}
+Anand Paul, Naveen Chilamkurti, Alfred Daniel, and Seungmin Rho.
+\newblock {\em Intelligent vehicular networks and communications: fundamentals,
+  architectures and solutions}.
+\newblock Elsevier, 2016.
+
+\bibitem{fogref}
+Priya Pedamkar.
+\newblock Fog computing architecture.
+\newblock \url{https://www.educba.com/fog-computing-architecture/}.
+\newblock Accessed: Nov. 2021.
+
+\bibitem{petracca2013board}
+Matteo Petracca, Paolo Pagano, Riccardo Pelliccia, Marco Ghibaudi, Claudio
+  Salvadori, and Christian Nastasi.
+\newblock On-board unit hardware and software design for vehicular ad-hoc
+  networks.
+\newblock In {\em Roadside Networks for Vehicular Communications:
+  Architectures, Applications, and Test Fields}, pages 38--56. IGI Global,
+  2013.
+
+\bibitem{cloudref2}
+Elvis Plesky.
+\newblock Comparing cloud models: Iaas, paas, saas.
+\newblock \url{https://www.plesk.com/}, October 2019.
+\newblock Accessed: Nov. 2021.
+
+\bibitem{qayyum2018fognetsim++}
+Tariq Qayyum, Asad~Waqar Malik, Muazzam A~Khan Khattak, Osman Khalid, and
+  Samee~U Khan.
+\newblock Fognetsim++: A toolkit for modeling and simulation of distributed fog
+  environment.
+\newblock {\em IEEE Access}, 6:63570--63583, 2018.
+
+\bibitem{rodrigues2020advances}
+Joel~JPC Rodrigues.
+\newblock {\em Advances in delay-tolerant networks (DTNs): Architecture and
+  enhanced performance}.
+\newblock Woodhead Publishing, 2020.
+
+\bibitem{saini2015close}
+Mukesh Saini, Abdulhameed Alelaiwi, and Abdulmotaleb~El Saddik.
+\newblock How close are we to realizing a pragmatic vanet solution? a
+  meta-survey.
+\newblock {\em ACM Computing Surveys (CSUR)}, 48(2):1--40, 2015.
+
+\bibitem{paper16}
+Kexin Shi, Liehuang Zhu, Can Zhang, Lei Xu, and Feng Gao.
+\newblock Blockchain-based multimedia sharing in vehicular social networks with
+  privacy protection.
+\newblock {\em Multimedia Tools and Applications}, 79(11):8085--8105, 2020.
+
+\bibitem{shrestha2020new}
+Rakesh Shrestha, Rojeena Bajracharya, Anish~P Shrestha, and Seung~Yeob Nam.
+\newblock A new type of blockchain for secure message exchange in vanet.
+\newblock {\em Digital communications and networks}, 6(2):177--186, 2020.
+
+\bibitem{singh2020computational}
+Vijendra Singh, Vijayan~K Asari, Sanjay Kumar, and RB~Patel.
+\newblock Computational methods and data engineering.
+\newblock {\em Proceedings of the ICMDE}, 2020.
+
+\bibitem{sommer2019veins}
+Christoph Sommer, David Eckhoff, Alexander Brummer, Dominik~S Buse, Florian
+  Hagenauer, Stefan Joerer, and Michele Segata.
+\newblock Veins: The open source vehicular network simulation framework.
+\newblock In {\em Recent advances in network simulation}, pages 215--252.
+  Springer, 2019.
+
+\bibitem{vigano2006automated}
+Luca Vigano.
+\newblock Automated security protocol analysis with the avispa tool.
+\newblock {\em Electronic Notes in Theoretical Computer Science}, 155:61--86,
+  2006.
+
+\bibitem{paper3}
+Xiaoliang Wang, Pengjie Zeng, Nick Patterson, Frank Jiang, and Robin Doss.
+\newblock An improved authentication scheme for internet of vehicles based on
+  blockchain technology.
+\newblock {\em IEEE access}, 7:45061--45072, 2019.
+
+\bibitem{paper15}
+Zisang Xu, Xiong Li, Jianbo Xu, Wei Liang, and Kim-Kwang~Raymond Choo.
+\newblock A secure and computationally efficient authentication and key
+  agreement scheme for internet of vehicles.
+\newblock {\em Computers \& Electrical Engineering}, 95:107409, 2021.
+
+\end{thebibliography}
