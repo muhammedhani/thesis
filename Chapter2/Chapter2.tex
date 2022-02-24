@@ -463,14 +463,14 @@
 				\begin{figure}[H]
 					\includegraphics[width=0.5\columnwidth]{{../images/chapter2/fog2.png}}
 					\centering
-					\caption{}
+					\caption[]{}
 					\label{fig:fog2}
 				\end{figure}
 				\item \textbf{Latency:} is the time taken by a data packet for a round trip which is an important aspect for handling a time sensitive data. If edge devices send time sensitive data to cloud for analysis and wait for the cloud to give proper action, then it can lead to many unwanted results because while handling time sensitive data, a millisecond can make a huge difference and it the right action reaches the edge devices late this may lead to a disaster or an accident. To solve this problem, Fog divides data into three types based on sensitivity which are time-sensitive data, less time-sensitive data, non-time sensitive data. See Fig. \ref{fig:fog3} 
 				\begin{figure}[H]
 					\includegraphics[width=0.7\columnwidth]{{../images/chapter2/fog3.png}}
 					\centering
-					\caption{}
+					\caption[]{}
 					\label{fig:fog3}
 				\end{figure}
 				Data is sent form devices to the nearest fog node to be analyzed, if this data is time-sensitive than this fog node sends the immediate action to be taken by the device then sends the summary for historical analysis and storage to the cloud. If data is less-time sensitive, then the nearest fog node redirects this data to an aggregate fog node to determine the appropriate action for this data then sends it back to the devices then sends also sends the summary for historical analysis and storage toe the cloud. non-time sensitive data are sent directly from the devices to the cloud to be analyzed. 
@@ -626,7 +626,7 @@
 			\begin{figure}[H]
 				\includegraphics[width=0.9\columnwidth]{{../images/chapter2/paper4-1.png}}
 				\centering
-				\caption{\cite{paper4}}
+				\caption[]{\cite{paper4}}
 				\label{fig:paper4-1}
 			\end{figure}
 			\subsection{Blockchain-Driven Trusted Data Sharing with Privacy-Protection in IoT \cite{paper5}}
@@ -684,7 +684,7 @@
 			\begin{figure}[H]
 				\includegraphics[width=0.75\columnwidth]{{../images/chapter2/paper14-1.png}}
 				\centering
-				\caption{}
+				\caption[]{}
 				\label{fig:paper14-1}
 			\end{figure}
 			In this paper, the goal of this scheme (Fig. \ref{fig:paper14-1}) is to reduce the traffic accident caused by packet lose through fast encryption/decryption, In addition, the scalability problem s solved by configuring the blockchain formation only with road infrastructure excluding Roadside Units (RSU). The proposed scheme as follow, The control center verifies the autonomous vehicles and generates a session key for the autonomous vehicle. After that, the control center encrypts the session key with the public key of the autonomous vehicle and transmits it to the corresponding autonomous vehicle. The control center sends a verification request message to the RSU in the path of the autonomous vehicle. The RSU uses information from the infrastructure to form a blockchain. Hash values used to create the blocks utilize information from the road infrastructure communicating with the RSUs. The RSU sends the generated blockchain to the control center, and the control center verifies the blocks. When the block verification is completed, the control center delivers the session key delivered to the autonomous vehicle to the RSU. The control center performs the same verification process for all RSUs in the autonomous vehicle's destination path. 
@@ -692,7 +692,7 @@
 			\begin{figure}[H]
 				\includegraphics[width=0.75\columnwidth]{{../images/chapter2/paper15-1.png}}
 				\centering
-				\caption{}
+				\caption[]{}
 				\label{fig:paper15-1}
 			\end{figure}
 			In this paper, the authors propose a scheme (its architecture is shown in Fig. \ref{fig:paper15-1}) which reduces energy consumption and authentication efficiency, and the actors of the scheme are Trusted Authority (TA) which is responsible for storing information in a trusted cloud server. Road-Side-Units (RSU) are road infrastructure fixed to the roadside which is responsible for authentication vehicles instead of simply acting as intermediate node and communicating with the trusted authority through a wired connection. On-Bord-Units (OBU) are equipped on each vehicle which collect data from surrounding and communicates with the roadside units in a wireless channel via Dedicated Short-Range Communication (DSRC) protocol. \\
