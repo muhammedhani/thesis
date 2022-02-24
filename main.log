@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.12) (format=lualatex 2022.2.16)  24 FEB 2022 18:06
+This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.12) (format=lualatex 2022.2.16)  24 FEB 2022 19:01
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -2011,7 +2011,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 683.
 
-<i/../images/chapter2/paper14-1.png, id=910, 773.89125pt x 395.22656pt>
+<i/../images/chapter2/paper14-1.png, id=909, 773.89125pt x 395.22656pt>
 File: i/../images/chapter2/paper14-1.png Graphic file (type png)
 <use i/../images/chapter2/paper14-1.png>
 Package luatex.def Info: i/../images/chapter2/paper14-1.png  used on input line
@@ -2032,7 +2032,7 @@ and I'll forget about whatever was undefined.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 691.
 
-<i/../images/chapter2/paper15-1.png, id=913, 479.54156pt x 238.64156pt>
+<i/../images/chapter2/paper15-1.png, id=912, 479.54156pt x 238.64156pt>
 File: i/../images/chapter2/paper15-1.png Graphic file (type png)
 <use i/../images/chapter2/paper15-1.png>
 Package luatex.def Info: i/../images/chapter2/paper15-1.png  used on input line
@@ -2138,9 +2138,9 @@ sers/moham/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb
 sy10.pfb><C:/Users/moham/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmsy7.pfb><C:/Users/moham/AppData/Local/Programs/MiKTeX/fonts/type1/urw/za
 pfding/uzdr.pfb>
-Output written on main.pdf (58 pages, 4370534 bytes).
+Output written on main.pdf (58 pages, 4370351 bytes).
 
-PDF statistics: 1045 PDF objects out of 1200 (max. 8388607)
+PDF statistics: 1044 PDF objects out of 1200 (max. 8388607)
  244 named destinations out of 1000 (max. 131072)
  361 words of extra memory for PDF output out of 10000 (max. 100000000)
 
