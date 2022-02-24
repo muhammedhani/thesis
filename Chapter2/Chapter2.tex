@@ -78,6 +78,7 @@
 			\end{itemize}
 			Moreover, mobility constitutes a barrier of the implementation of traditional security schemes in VANETs. Vehicles move at a fast rate, moving in and out of the reception area of other vehicles participating in the network. We can expect that a pair of vehicles can communicate for a limited period of time. It’s also expected that communication between nodes that have interacted before and will never interact again will be the norm. Thus, VANETs are different from existing MANETs where communication between pairs of nodes can be relatively long duration. 
 			
+			\newpage
 			\subsection{Internet of Vehicles (IoV)}
 			\subsubsection{What is IoV?}
 			The new era of the Internet of Things (IoT) is driving the evolution of conventional vehicular ad-hoc networks (VANETs) into the Internet of Vehicles (IoV). IoV is the type of IoT in the field of transportation (i.e., vehicles). IoV refers to the real-time data intersubsection between vehicles and roads, vehicles and vehicles, as well as vehicles and cities, using mobile-communication technology, vehicle navigation systems, smart-terminal devices, and information platforms to enable information exchange/interaction and a driving-instruction-controlling network system. \\
@@ -88,7 +89,7 @@
 			Vehicles in IoV are smart-vehicles with complex intra-vehicle systems. In particular, there are various sensors to collect vehicle and driving status, and communication devices to communicate with other vehicles and/or the Internet. In IoV, vehicles play a dual role: they are clients to consume the service from the Internet and at the same time they are peers to perform distributed computing. IoV is a hybrid system with both peer-to-peer (P2P) and client-server computing paradigms. With a peer-to-peer paradigm, vehicles can cooperate and collaborate with each other to realize distributed-computing functionalities, such as file sharing and cooperative driving. With the client-server paradigm, vehicles can use the resources at servers from the Internet. \\
 			IoV consists of two different types of wireless connections. First, Vehicle-to-Vehicle (V2V) communication is used to exchange information among vehicles directly. Wireless links of V2V connect vehicles in an ad-hoc way and construct VANETs. The second type of connections is Vehicle-to-Road (V2R), also called Vehicle-to-Infrastructure (V2I). V2R refers to the information exchange between vehicles, and to road-side infrastructure equipped with wireless communication technology, such as traffic lights or warning signs for roadwork. Unlike V2V, V2R can reach long distances and achieve high scalability. With V2V and V2R communications, IoV can realize information exchange among vehicles, road-side infrastructure, and also the Internet. Then, various applications can be supported by IoV, including ITS and Internet services. IoV network architecture is shown in Fig. \ref{fig:iov1}. 
 			\begin{figure}[H]
-				\includegraphics[width=0.54\columnwidth]{{../images/chapter2/iov1.png}}
+				\includegraphics[width=0.42\columnwidth]{{../images/chapter2/iov1.png}}
 				\centering
 				\caption{IoV Network Architecture \cite{buyya2016internet}.}
 				\label{fig:iov1}
@@ -120,7 +121,7 @@
 			\subsubsection{IoV Applications \cite{buyya2016internet}}
 			The applications of IoV are quite diverse. According to functionalities, they can be categorized into three major classes. A detailed taxonomy is shown in Fig. \ref{fig:iov2}.
 			\begin{figure}[H]
-				\includegraphics[width=0.8\columnwidth]{{../images/chapter2/iov2.png}}
+				\includegraphics[width=0.53\columnwidth]{{../images/chapter2/iov2.png}}
 				\centering
 				\caption{A Taxonomy of IoV Applications \cite{buyya2016internet}.}
 				\label{fig:iov2}
@@ -170,7 +171,6 @@
 						\item the set of all possible keys is called the key space.
 					\end{itemize}
 				
-				\newpage
 				\subsubsection{Asymmetric Cryptography}
 					As a system is symmetric with respect to two properties:
 					\begin{itemize}
@@ -396,12 +396,6 @@
 			\subsection{Cloud Computing}
 			\subsubsection{What is Cloud?}
 			The cloud" refers to servers which are accessed over the internet, and the software programs and databases that run on those  servers. Cloud servers are placed in data centers all over the world. by way of the use of cloud computing, customers and companies do not have to manipulate physical servers themselves or run software applications on their own machines \cite{cloudref1}. 
-			\begin{figure}[H]
-				\includegraphics[width=0.7\columnwidth]{{../images/chapter2/cloud1.jpg}}
-				\centering
-				%\caption{}
-				\label{fig:cloud1}
-			\end{figure}
 			Users can access the same files and applications from almost any device through the cloud because the  computing and storage occur on servers in a data center, instead of local devices of the users. Due to that a user can logs in to its Facebook account on a new phone after the olde one is damaged and still finds his old account as it was in previous containing all his photos, videos, and conversation history. \\
 			Switching to cloud computing gits rid of some IT costs and overhead for businesses. for example, businesses no longer need to update and maintain their own servers because the cloud vendor, with who they are subscribed, will do that. Small businesses that may not have been able to afford their own internal infrastructure can now deploy their infrastructure on the cloud with low cost. Another benefit of the cloud for companies is that it makes it easier for them to operate internationally, because employees and customers can access the same files and applications from any location. 
 			
@@ -413,9 +407,9 @@
 			\subsubsection{Common Service Models of Cloud Computing \cite{cloudref2}}
 				As shown in Fig. \ref{fig:cloud2}, cloud services include: 
 				\begin{figure}[H]
-					\includegraphics[width=\columnwidth]{{../images/chapter2/cloud2.png}}
+					\includegraphics[width=0.9\columnwidth]{{../images/chapter2/cloud2.png}}
 					\centering
-					%\caption{}
+					\caption{Cloud Services}
 					\label{fig:cloud2}
 				\end{figure}
 				\begin{itemize}
@@ -467,16 +461,16 @@
 				\let\labelitemi\labelitemii
 				\item \textbf{Volume problem:} occurs due to the terabyte of data produced by billions of devices every day and the continuous increasing of device density, so the current cloud model is unable to process and store this huge amount of data and data need to be filtered. 
 				\begin{figure}[H]
-					\includegraphics[width=\columnwidth]{{../images/chapter2/fog2.png}}
+					\includegraphics[width=0.5\columnwidth]{{../images/chapter2/fog2.png}}
 					\centering
-					%\caption{}
+					\caption{}
 					\label{fig:fog2}
 				\end{figure}
 				\item \textbf{Latency:} is the time taken by a data packet for a round trip which is an important aspect for handling a time sensitive data. If edge devices send time sensitive data to cloud for analysis and wait for the cloud to give proper action, then it can lead to many unwanted results because while handling time sensitive data, a millisecond can make a huge difference and it the right action reaches the edge devices late this may lead to a disaster or an accident. To solve this problem, Fog divides data into three types based on sensitivity which are time-sensitive data, less time-sensitive data, non-time sensitive data. See Fig. \ref{fig:fog3} 
 				\begin{figure}[H]
 					\includegraphics[width=0.7\columnwidth]{{../images/chapter2/fog3.png}}
 					\centering
-					%\caption{}
+					\caption{}
 					\label{fig:fog3}
 				\end{figure}
 				Data is sent form devices to the nearest fog node to be analyzed, if this data is time-sensitive than this fog node sends the immediate action to be taken by the device then sends the summary for historical analysis and storage to the cloud. If data is less-time sensitive, then the nearest fog node redirects this data to an aggregate fog node to determine the appropriate action for this data then sends it back to the devices then sends also sends the summary for historical analysis and storage toe the cloud. non-time sensitive data are sent directly from the devices to the cloud to be analyzed. 
@@ -588,13 +582,6 @@
 				\subsubsection{OMNET++}
 				OMNET++ \cite{omnet_sim} is an extensible, modular, component-based C++ simulation library and framework, primarily for building network simulations. “Network” includes wired and wireless communication networks, on-chip networks, queuing networks, etc. Domain-specific functionality such as support for sensor networks, wireless ad-hoc networks, Internet protocols, performance modeling, photonic networks, etc., are provided by model frameworks, developed as independent projects. In OMNET++, there are extensions for real-time simulations, network emulation, database integration, SystemC integration, and several other functions. 
 				
-				\paragraph{Other OMNET++ Visualization Tools:}
-				\begin{itemize}
-					\let\labelitemi\labelitemii
-					\item \textbf{osgEarth:} osgEarth \cite{osgearth} is a C++ geospatial SDK and 3D mapping engine. osgEarth supports all kinds of data and comes with lots of examples to help get up and running quickly and easily. 
-					\item \textbf{OpenSceneGraph:} The OpenSceneGraph \cite{openscenegraph} is an open source high performance 3D graphics toolkit, used by application developers in fields such as visual simulation, games, virtual reality, scientific visualization and modeling. 
-				\end{itemize}
-				
 				\subsubsection{Veins Framework}
 				Veins \cite{sommer2019veins} is a model library for (and a toolbox) OMNeT++, which supports researchers conducting simulations involving communicating road vehicles; either as the main focus of a study (such as Vehicular Ad Hoc Networks - VANETs) or as a component (such as in Intelligent Transportation Systems - ITS). It is an open-source software; It is free to download, adapt, and use. The model library includes a full stack of simulation models for investigating communicating vehicles and infrastructure. \\
 				Veins does not include custom mobility models of road vehicles. Rather, it has simulations establish a connection to a dedicated road traffic simulator which is running as a separate process, The road traffic simulator that Veins was designed to interoperate with is Simulation of Urban Mobility (SUMO). SUMO can simulate medium to large road networks of cities, urban areas, highways, and freeways. On those, it can simulate the movement of road vehicles. 
@@ -612,7 +599,7 @@
 		\newpage
 		\section{Related Work}
 			\subsection{A lightweight anonymous cross-regional mutual authentication scheme using blockchain technology for internet of vehicles \cite{paper1}}
-			In This paper the Authors proposed a scheme where the Trust Authority (TA) are responsible for Data processing, Integrating, recasting data send by each vehicle and managing the Vehicle Nodes (VN) which are responsible for data acquisition and data communication devices with the Road-Side-Units (RSU) are responsible for data perception and communication build up on the road in addition to data forwarding to the trusted authority, thus forming the Internet of Vehicles (IoV). \\
+			In this paper, the authors proposed a scheme (shown in Fig. \ref{fig:paper1-1}) where the Trust Authority (TA) are responsible for Data processing, Integrating, recasting data send by each vehicle and managing the Vehicle Nodes (VN) which are responsible for data acquisition and data communication devices with the Road-Side-Units (RSU) are responsible for data perception and communication build up on the road in addition to data forwarding to the trusted authority, thus forming the Internet of Vehicles (IoV). \\
 			For the reason that vehicle nodes on the IoV are known for it’s mobility and there are cross-regional authentication and key agreement the authors propose a decentralized data storage system in the form of blockchain using Proof of Work (PoW) as a consensus mechanism which require high power consumption so the system stability is insured and the failure of the entire network will not occur due to the failure of on trusted authority and the Blockchain would be employed in the cloud server layer of the IoV which will be time consuming as the cloud connection won’t be sufficient for hard real time services. So, Each trust authority in the cloud server layer stores the data related to identification, registration, authentication and key agreement for each vehicle stored in the blockchain to tampered proof. \\
 			\begin{figure}[H]
 				\includegraphics[width=0.55\columnwidth]{{../images/chapter2/paper1-1.png}}
@@ -623,75 +610,70 @@
 				\label{fig:paper1-1}
 			\end{figure}
 			\subsection{Efficient Distributed Admission and Revocation using Blockchain for Cooperative ITS \cite{paper2}}
-			A fully distributed vehicle admission/revocation scheme that could alleviate the computation overhead and enhance the response time while improving the overall system security is proposed  in, it proposes the use of Blockchain to keep track of the certificate of each vehicle (valid or revoked) in distributed and immutable records rather than the other solutions that depend on Public Key Infrastructure (PKI) which is mainly based on Certificate Authority (CA) that acts as a trusted third party to issue/revoke digital certificates. This PKI-based systems have some problems such as depending mainly on the use of digital certificates for authentication to secure inter-vehicle communication, imposing significant overhead on vehicles since it is computationally demanding and requires validation of the certificate within a limited period and the single point of failure that results from relying on a central node for deciding on issuing and revoking certificates. \\
+			A fully distributed vehicle admission/revocation scheme (architecture shown in Fig. \ref{fig:paper2-1}) that could alleviate the computation overhead and enhance the response time while improving the overall system security is proposed  in, it proposes the use of Blockchain to keep track of the certificate of each vehicle (valid or revoked) in distributed and immutable records rather than the other solutions that depend on Public Key Infrastructure (PKI) which is mainly based on Certificate Authority (CA) that acts as a trusted third party to issue/revoke digital certificates. This PKI-based systems have some problems such as depending mainly on the use of digital certificates for authentication to secure inter-vehicle communication, imposing significant overhead on vehicles since it is computationally demanding and requires validation of the certificate within a limited period and the single point of failure that results from relying on a central node for deciding on issuing and revoking certificates. \\
 			The paper solves the single point of failure problem that exits in the PKI-based systems through a blockchain-based system that take the advantage of the distributed nature of the blockchain and the immutability. When a vehicle tries to join to the system it will pass through a set of processes, first Registration, then admission or revocation and misbehavior notification if there a wrong action occurs, and all these processes occur in a completely decentralized manner. \\
 			the system support vehicle registration, admission, misbehavior notification and revocation in a completely decentralized manner. Moreover, it eliminates the inherent heavy computation when verifying digital certificates and enables authentication using a simple lookup function. the limitation in this system is that it needs high storage because the number of transactions on the blockchain is proportional to the number of vehicles and revocation/re-registration events, which could be very large. 
 			\begin{figure}[H]
 				\includegraphics[width=0.8\columnwidth]{{../images/chapter2/paper2-1.png}}
 				\centering
-				%\caption{}
+				\caption{Architecture of the Proposed Model \cite{paper2}.}
 				\label{fig:paper2-1}
 			\end{figure}
 			\subsection{An Improved Authentication Scheme for Internet of Vehicles Based on Blockchain Technology \cite{paper3}}
-			\begin{figure}[h!]
-				\includegraphics[width=0.8\columnwidth]{{../images/chapter2/paper3-1.png}}
-				\centering
-				%\caption{}
-				\label{fig:paper3-1}
-			\end{figure}
 			proposed an effective decentralized authentication mechanism for Internet of Vehicles based on the Rayleigh consensus algorithm of blockchain technology. They used blockchain technology combined with the PKI authentication mechanism to solve the identity counterfeiting and identity authentication problem between the vehicles, the servers, and the RSUs in the Internet o Vehicles. This combination also can solve the problem of user account management, which includes the multiple logins of the same account or user. They depend on the encryption feature of the blockchain to encrypt the identity information of the vehicle node and prevent the leakage of user information. The blockchain framework is used to design a new key distribution mechanism. The blockchain ledger technology is used to design a new node joining mechanism, and the blockchain consensus technology is further developed to design a new vehicle identity authentication mechanism.
 			\subsection{BlockChain: A Distributed Solution to Automotive Security and Privacy \cite{paper4}}
-			proposed a novel automotive security architecture based on BlockChain (BC) due to its distributed nature. This architecture eliminates the need for a centralized control and the privacy of the users is ensured by using changeable Public Keys (PK) for vehicles while the nodes whose identity should be known, including software providers, vehicle manufacturers and cloud storage share a PK that is certified by a third-party Certification authority (CA). The security of this architecture is largely inherited from the strong security properties of the underlying BC technology. The system replaces the traditional Block chain instantiations that suffer from high (processing and packet) overhead and low scalability and throughput with new Block chain instantiations called Lightweight Scalable Blockchain (LSB) which replaces the demand for solving a computational puzzle with a scheduled block generation process, thus eliminating the significant processing overhead of conventional BCs. LSB clusters the network and only the  Cluster Heads (CHs)  which are the Block Manager (i.e. OBMs) manage the blockchain . An OBM verifies a transaction by validating the signature of the transaction participants with their PK. 
-			\begin{figure}[h!]
+			proposed a novel automotive security architecture (shown in Fig. \ref{fig:paper4-1}) based on BlockChain (BC) due to its distributed nature. This architecture eliminates the need for a centralized control and the privacy of the users is ensured by using changeable Public Keys (PK) for vehicles while the nodes whose identity should be known, including software providers, vehicle manufacturers and cloud storage share a PK that is certified by a third-party Certification authority (CA). The security of this architecture is largely inherited from the strong security properties of the underlying BC technology. The system replaces the traditional Block chain instantiations that suffer from high (processing and packet) overhead and low scalability and throughput with new Block chain instantiations called Lightweight Scalable Blockchain (LSB) which replaces the demand for solving a computational puzzle with a scheduled block generation process, thus eliminating the significant processing overhead of conventional BCs. LSB clusters the network and only the  Cluster Heads (CHs)  which are the Block Manager (i.e. OBMs) manage the blockchain . An OBM verifies a transaction by validating the signature of the transaction participants with their PK. 
+			\begin{figure}[H]
 				\includegraphics[width=0.9\columnwidth]{{../images/chapter2/paper4-1.png}}
 				\centering
-				%\caption{}
+				\caption{\cite{paper4}}
 				\label{fig:paper4-1}
+			\end{figure}
+			\subsection{Blockchain-Driven Trusted Data Sharing with Privacy-Protection in IoT \cite{paper5}}
+			This paper takes the intelligent transportation sensor network as an example and proposes a blockchain-based internet of vehicles (IoV) data secure sharing scheme, called IoVChain (its application is shown in Fig. \ref{fig:paper5-1}), which implements automatic registration, rapid authentication, and reliable sharing method of IoV data through smart contract. In this paper, the secure sharing of IoV data scheme based on blockchain (IoVChain scheme) divides data into public data that can be shared in plain text and private data that must be kept strictly confidential. The model is based on consortium blockchain architecture, which can withstand the risks of some node breakdown and evildoing, and solves the single point of failure problem of the traditional centralized architecture of the IoV. The sensor nodes in the model include Road-Side Unit (RSU) and On-Board Unit (OBU). IoVChain scheme takes the advantage of blockchain, such as tamper-resistance, high security features, to ensure the safety of users' privacy under the condition of the use and sharing of data. Ma Zhaofeng et al. suppose that IoVChain scheme would access data providers including car owners, car manufacturers, 4S stores, car networking companies, insurance companies, and LBS manufactures to integrate the entire process data of vehicles. It would also access more data users, including more auto aftermarket service providers such as e-commerce platforms, auto finance, and government agencies such as traffic management and urban construction, to promote wider data use. IoVChain scheme adopts a data structure based on homomorphic encryption and ZKP, combined with the tamper resistance and open and transparent characteristics of the blockchain. They implemented an IoV data security sharing platform based on Hyperledger Fabric 1.4. For performance evaluation, they used Apache JMeter 4.0 to test the implemented IoVChain platform in an automatic real-time online environment, and evaluate the query efficiency of block according to various conditions, which shows that the proposed solution provides a reliable, safe, efficient and tamper-resistance data security practice for connected vehicles, and it has the potential to be applied in other scenarios of IoT sensor network.
+			\begin{figure}[H]
+				\includegraphics[width=0.7\columnwidth]{{../images/chapter2/paper5-1.png}}
+				\centering
+				\caption{The application of proposed IoVChain scheme \cite{paper5}.}
+				\label{fig:paper5-1}
 			\end{figure}
 			\subsection{Blockchain-based Internet of Vehicles: Distributed Network Architecture and Performance Analysis \cite{paper6}}
 			Tigang Jiang et al. presented a model of the outward transmission of vehicle blockchain data, and give detail theoretical analysis and numerical results, discussed the connections between blockchain and IoV as well as the technical difficulties of implementing blockchain for IoV applications, and conducted theoretical modeling and performance analysis of vehicle networking systems. The objective of the solution is to provide a distributed and secure storage of big data. This paper focuses on the framework and network architecture of the IoV and blockchain including communication performance modeling and analysis method. However, the proposed model does not consider the traffic among vehicles, and the channel reliability of the cellular networks.
-			\subsection{Blockchain-Driven Trusted Data Sharing with Privacy-Protection in IoT \cite{paper5}}
-				This paper takes the intelligent transportation sensor network as an example and proposes a blockchain-based internet of vehicles (IoV) data secure sharing scheme, called IoVChain, which implements automatic registration, rapid authentication, and reliable sharing method of IoV data through smart contract. In this paper, the secure sharing of IoV data scheme based on blockchain (IoVChain scheme) divides data into public data that can be shared in plain text and private data that must be kept strictly confidential. The model is based on consortium blockchain architecture, which can withstand the risks of some node breakdown and evildoing, and solves the single point of failure problem of the traditional centralized architecture of the IoV. The sensor nodes in the model include Road-Side Unit (RSU) and On-Board Unit (OBU). IoVChain scheme takes the advantage of blockchain, such as tamper-resistance, high security features, to ensure the safety of users' privacy under the condition of the use and sharing of data. Ma Zhaofeng et al. suppose that IoVChain scheme would access data providers including car owners, car manufacturers, 4S stores, car networking companies, insurance companies, and LBS manufactures to integrate the entire process data of vehicles. It would also access more data users, including more auto aftermarket service providers such as e-commerce platforms, auto finance, and government agencies such as traffic management and urban construction, to promote wider data use. IoVChain scheme adopts a data structure based on homomorphic encryption and ZKP, combined with the tamper resistance and open and transparent characteristics of the blockchain. They implemented an IoV data security sharing platform based on Hyperledger Fabric 1.4. For performance evaluation, they used Apache JMeter 4.0 to test the implemented IoVChain platform in an automatic real-time online environment, and evaluate the query efficiency of block according to various conditions, which shows that the proposed solution provides a reliable, safe, efficient and tamper-resistance data security practice for connected vehicles, and it has the potential to be applied in other scenarios of IoT sensor network.
-				\begin{figure}[h!]
-					\includegraphics[width=0.7\columnwidth]{{../images/chapter2/paper5-1.png}}
-					\centering
-					%\caption{}
-					\label{fig:paper5-1}
-				\end{figure}
 			\subsection{A Scalable Protocol for Driving Trust Management in Internet of Vehicles with Blockchain \cite{paper7}}
 			\begin{figure}[H]
 				\includegraphics[width=0.8\columnwidth]{{../images/chapter2/paper7-1.png}}
 				\centering
-				%\caption{}
+				\caption{IoV-blockchain model with the four-way trade-off \cite{paper7}.}
 				\label{fig:paper7-1}
 			\end{figure}
-			Uzair Javaid et al. propose a blockchain-based protocol for IoV using smart contracts, Physical Unclonable Functions (PUF), certificates, and a proof of work (PoW) consensus algorithm. The blockchain and smart contracts provide a secure way of managing vehicle registrations. Physical Unclonable Functions (PUFs) are used to assign a unique identity to each vehicle. Certificates, issued to vehicles by road-side units (RSUs), preserve vehicles' privacy. Moreover, dynamic proof of work (dPoW) consensus algorithm, a type of proof of work, allows the protocol to scale according to the incoming traffic generated by the vehicles. This paper focuses on designing a decentralized trust management protocol for IoV while addressing the four-way trade-off. The four-way trade-off of blockchain involves these four quintessential factors: \textbf{Scalability}, the quantative measure of of the ability of a blockchain to handle and process transactions such that a blockchain should be able to handle high volumes of transactions supported by a wide range of applications. \textbf{Decentralization}, the distribution of control or resources in a blockchain which allows it to achieve different objectives such as single point of failure. \textbf{Latency}, the time taken for a transaction to be verified or confirmed and added to a block in a blockchain, and become irreversible. \textbf{Security}, the guarantee for the immutability of a ledger in a blockchain and the data it contains, which is known by its robustness and resistance to attacks such as 51\%, Sybil, and DDoS. In this paper, they also present a formal security analysis of the proposed model. The performance evaluation and efficiency in terms of the four-way trade-off of blockchain show that they could outperform many of state-of-the-art existing protocols in many aspects. They also present a case study along with a comparative analysis, which confirms that their protocol can provide superior decentralized trust management for IoV. 
+			Uzair Javaid et al. propose a blockchain-based protocol for IoV using smart contracts, Physical Unclonable Functions (PUF), certificates, and a proof of work (PoW) consensus algorithm. The blockchain and smart contracts provide a secure way of managing vehicle registrations. Physical Unclonable Functions (PUFs) are used to assign a unique identity to each vehicle. Certificates, issued to vehicles by road-side units (RSUs), preserve vehicles' privacy. Moreover, dynamic proof of work (dPoW) consensus algorithm, a type of proof of work, allows the protocol to scale according to the incoming traffic generated by the vehicles. This paper focuses on designing a decentralized trust management protocol for IoV while addressing the four-way trade-off. The four-way trade-off (shown in Fig. \ref{fig:paper7-1}) of blockchain involves these four quintessential factors: \textbf{Scalability}, the quantative measure of of the ability of a blockchain to handle and process transactions such that a blockchain should be able to handle high volumes of transactions supported by a wide range of applications. \textbf{Decentralization}, the distribution of control or resources in a blockchain which allows it to achieve different objectives such as single point of failure. \textbf{Latency}, the time taken for a transaction to be verified or confirmed and added to a block in a blockchain, and become irreversible. \textbf{Security}, the guarantee for the immutability of a ledger in a blockchain and the data it contains, which is known by its robustness and resistance to attacks such as 51\%, Sybil, and DDoS. In this paper, they also present a formal security analysis of the proposed model. The performance evaluation and efficiency in terms of the four-way trade-off of blockchain show that they could outperform many of state-of-the-art existing protocols in many aspects. They also present a case study along with a comparative analysis, which confirms that their protocol can provide superior decentralized trust management for IoV. 
+			\newpage
 			\subsection{A Blockchain-Based Multi-Factor Authentication Model for a Cloud-Enabled Internet of Vehicles \cite{paper8}}
 			This paper is concerning of problem of ineffective authentication techniques which leads to attacks as adversiers can easily exploit the weak authentications, specially, in multi authentication phase. The aim is to harden the authentication through using block chain-based MFA(Multi factor authentication) with using SSO (single sign on) in VC (Vehicular cloud) system, and to certain the confidentiality and integrity of the system. The paper based mainly in Karla and Sood's approach which use an Ecc (Elleptic Curve Cryptography) with eppta (embedded probablestic polynomial time algorithm) to gurantee a higher security to the system, In purposed solution, in blockchain environment the generated Hsh(Hash) will be three times stronger: (New Ds*Ds+Proof-of-work(PoW)+ Hash) which make the adversary need to compute quadrillions of computations to generate the blockchain hash when he tries to eavesdrop, conduct a brute force, or change the immutability of the blockchain. Although the system has very strong authentication, it has a very remarkable problem which are: Reliability and Complexity. The problem of Reliability and Complexity is came from a many overlapping steps in generating the Ds (Digital Signature) and modified Hash, which makes a problem of power consumption and then applying them in environment of Cloud system with SSO which make it also sometimes not applicable in any environments, but environment of 5G and smart cities. 
 			\subsection{Enhanced IoV Security Network by Using Blockchain Governance Game \cite{paper9}}
-			\begin{figure}[h!]
+			\begin{figure}[H]
 				\includegraphics[width=0.9\columnwidth]{{../images/chapter2/paper9-1.png}}
 				\centering
 				\caption{Adapting BGG for the EBIoV architecture \cite{paper9}.}
 				\label{fig:paper9-1}
 			\end{figure}
-			In this paper, The system is deals with a Blockchain Governance Game (BGG), which is a system model of a The BGG is a mathematically proven game model to develop optimal defense strategies to protect systems from attackers and find best strategies towards preparation of preventing a network malfunction, the system applies BGG in connected vehicles in the IOV system. Here, the attacker is not an adversary out of the system, but he is one of the miners of the system. The problem of 51\% attack. So, the system consists of one attacker (the miner which intends to fork a private chain) and one defender (the miner which honestly mines on the public chain) and the aim is to predict the moment for safety operations and to deliver the optimal combination of the number of reserved nodes with the acceptance probability of backup nodes to protect a connected car, these nodes are reserved in cloud by headquarter to support the system before just a while before attack happened. The paper gives us a practical case which demonstrates a network could be implemented for connected car securities, The problem of this approach is: Complexity, as this approach is using a very complex mathematically calculations which leads to a time complexity.
+			In this paper, The system is deals with a Blockchain Governance Game (BGG) (shown in Fig. \ref{fig:paper9-1}), which is a system model of a The BGG is a mathematically proven game model to develop optimal defense strategies to protect systems from attackers and find best strategies towards preparation of preventing a network malfunction, the system applies BGG in connected vehicles in the IOV system. Here, the attacker is not an adversary out of the system, but he is one of the miners of the system. The problem of 51\% attack. So, the system consists of one attacker (the miner which intends to fork a private chain) and one defender (the miner which honestly mines on the public chain) and the aim is to predict the moment for safety operations and to deliver the optimal combination of the number of reserved nodes with the acceptance probability of backup nodes to protect a connected car, these nodes are reserved in cloud by headquarter to support the system before just a while before attack happened. The paper gives us a practical case which demonstrates a network could be implemented for connected car securities, The problem of this approach is: Complexity, as this approach is using a very complex mathematically calculations which leads to a time complexity.
 			\subsection{Implementing blockchain technology in the Internet of Vehicle (IoV) \cite{paper10}}
-			\begin{figure}[h!]
+			\begin{figure}[H]
 				\includegraphics[width=0.7\columnwidth]{{../images/chapter2/paper10-1.png}}
 				\centering
-				%\caption{}
+				\caption{Network Architecture of the proposed model \cite{paper10}.}
 				\label{fig:paper10-1}
 			\end{figure}
-			This paper is aiming to utilize a block chain technology to ensure authentic vehicle identification and data authentication which is transmitted from one vehicle to another. The system is divided into parts: The backbone network (Which provides the internet connectivity and data requirement of IoV operations via the localized WBS), Wireless Base Station (WBS) (Which stores, and controls detailed vehicle information and generates the public keys for vehicles), and the block chain operated network(Which includes communications such like: V2V, V2I, and I2I governed by WBS). The strength of security in this scheme is defined as each block contains: The generic block hash, previous block hash, timestamp, and transaction records/roots. Every block in the block chain contains based transaction security includes both information security (Which guarantees data authenticity, validity, and confidentiality) and transaction security (Which guarantees authenticity and confidentiality). The problem of this system is the size of the block chains which is very large, single point of failure, and time complexity. 
+			This paper is aiming to utilize a block chain technology to ensure authentic vehicle identification and data authentication which is transmitted from one vehicle to another. The system \ref{fig:paper10-1} is divided into parts: The backbone network (Which provides the internet connectivity and data requirement of IoV operations via the localized WBS), Wireless Base Station (WBS) (Which stores, and controls detailed vehicle information and generates the public keys for vehicles), and the block chain operated network(Which includes communications such like: V2V, V2I, and I2I governed by WBS). The strength of security in this scheme is defined as each block contains: The generic block hash, previous block hash, timestamp, and transaction records/roots. Every block in the block chain contains based transaction security includes both information security (Which guarantees data authenticity, validity, and confidentiality) and transaction security (Which guarantees authenticity and confidentiality). The problem of this system is the size of the block chains which is very large, single point of failure, and time complexity. 
 			\subsection{EASBF: An efficient authentication scheme over blockchain for fog computing-enabled internet of vehicles \cite{paper11}}
-			\begin{figure}[h!]
+			\begin{figure}[H]
 				\includegraphics[width=0.8\columnwidth]{{../images/chapter2/paper11-1.png}}
 				\centering
-				%\caption{}
+				\caption{The Architecture of the proposed scheme \cite{paper11}.}
 				\label{fig:paper11-1}
 			\end{figure}
-			In this paper the Authors propose an authentication scheme using Blockchain deployed using fog computing the scheme they propose is formed using many actors starting with Trusted Authority (TA) which is a central secured authority that has the responsibility of registering the OBUs and RSUs nodes. On-Bord-Units (OBU) are the units and sensors installed on vehicles for data collection, acquisition, and communication. Road-Side-Units (RSU) are node in charge of carrying communication for vehicles to communicate with each other and the infrastructure. Blockchain Manager (BM) is responsible for the management of the blockchain and the authentication of the vehicle in a fog area. Certification Authority (CA) is responsible for updating the certification of each vehicle.
+			In this paper, the authors propose an authentication scheme using Blockchain deployed using fog computing. The scheme (shown in Fig. \ref{fig:paper11-1}) they propose is formed using many actors starting with Trusted Authority (TA) which is a central secured authority that has the responsibility of registering the OBUs and RSUs nodes. On-Bord-Units (OBU) are the units and sensors installed on vehicles for data collection, acquisition, and communication. Road-Side-Units (RSU) are node in charge of carrying communication for vehicles to communicate with each other and the infrastructure. Blockchain Manager (BM) is responsible for the management of the blockchain and the authentication of the vehicle in a fog area. Certification Authority (CA) is responsible for updating the certification of each vehicle.
 			The concept of vehicle Fog Calculation (VFC) has been integrated to improve the efficiency of communication when collecting , organizing, processing, and storing real-time traffic data and minimize latency. The authors propose implementing leading edge cryptography techniques such as one way hash function and elliptic curve cryptography and propose deploying byzantine fault consensus algorithm. But the system has major issue which is the centralized trusted authority which may lead to single point of failure. 
 			\subsection{Blockchain Meets VANET: An Architecture for Identity and Location Privacy Protection in VANET \cite{paper12}}
 			In \cite{paper12}, They have mentioned that they divide the privacy protection into three types: location
@@ -699,159 +681,155 @@
 			\subsection{Hybrid Cryptographic Protocol for Secure Vehicle Data Sharing over Consortium Blockchain \cite{paper13}}
 			In this paper they investigate the potential of the block chain technology in securing and tracking vehicles maintenance and mileage information over a consortium block chain, that is governed by a set of key stakeholders, including an automobile manufacturer, an insurance company, and a service provider. They contributions are many-fold. First, they design a novel architecture to enable the management of vehicles life cycles and data over a decentralized and tamper-proof ledger, hence enabling collaborations and data sharing between the involved parties. For example, vehicles mileages, that are written on the block chain, can enable a vehicle owner to certify the actual value of his car, while it can also enable an insurance company to provide usage-based insurance services (e.g. Pay how/as you drive). Second, they design a novel hybrid cryptographic protocol that address the limitations of existing block chain technologies and enable secure and private data sharing between the involved parties. Vehicles Life-cycle over a Consortium Blockchain have four main steps. Step one: when a consumer acquires a new vehicle; the manufacturer creates a new digital and secure car book on the consortium block chain, and whose access is initially restricted to only the actual car owner and the automotive manufacturer. Step two: Including automatic registration. Step three: maintenance outside dealership network. Step four: resale the car. 
 			\subsection{A security scheme based on blockchain and a hybrid cryptosystem to reduce packet loss in IoV \cite{paper14}}
-			\begin{figure}[h!]
+			\begin{figure}[H]
 				\includegraphics[width=0.75\columnwidth]{{../images/chapter2/paper14-1.png}}
 				\centering
-				%\caption{}
+				\caption{}
 				\label{fig:paper14-1}
 			\end{figure}
-			In this paper the goal of this scheme is to reduce the traffic accident caused by packet lose through fast encryption/decryption, In addition, the scalability problem s solved by configuring the blockchain formation only with road infrastructure excluding Roadside Units (RSU). The proposed scheme as follow, The control center verifies the autonomous vehicles and generates a session key for the autonomous vehicle. After that, the control center encrypts the session key with the public key of the autonomous vehicle and transmits it to the corresponding autonomous vehicle. The control center sends a verification request message to the RSU in the path of the autonomous vehicle. The RSU uses information from the infrastructure to form a blockchain. Hash values used to create the blocks utilize information from the road infrastructure communicating with the RSUs. The RSU sends the generated blockchain to the control center, and the control center verifies the blocks. When the block verification is completed, the control center delivers the session key delivered to the autonomous vehicle to the RSU. The control center performs the same verification process for all RSUs in the autonomous vehicle's destination path. 
+			In this paper, the goal of this scheme (Fig. \ref{fig:paper14-1}) is to reduce the traffic accident caused by packet lose through fast encryption/decryption, In addition, the scalability problem s solved by configuring the blockchain formation only with road infrastructure excluding Roadside Units (RSU). The proposed scheme as follow, The control center verifies the autonomous vehicles and generates a session key for the autonomous vehicle. After that, the control center encrypts the session key with the public key of the autonomous vehicle and transmits it to the corresponding autonomous vehicle. The control center sends a verification request message to the RSU in the path of the autonomous vehicle. The RSU uses information from the infrastructure to form a blockchain. Hash values used to create the blocks utilize information from the road infrastructure communicating with the RSUs. The RSU sends the generated blockchain to the control center, and the control center verifies the blocks. When the block verification is completed, the control center delivers the session key delivered to the autonomous vehicle to the RSU. The control center performs the same verification process for all RSUs in the autonomous vehicle's destination path. 
 			\subsection{A secure and computationally efficient authentication and key agreement scheme for Internet of Vehicles \cite{paper15}}
 			\begin{figure}[H]
 				\includegraphics[width=0.75\columnwidth]{{../images/chapter2/paper15-1.png}}
 				\centering
-				%\caption{}
+				\caption{}
 				\label{fig:paper15-1}
 			\end{figure}
-			In this paper the authors propose a scheme which reduces energy consumption and authentication efficiency, and the actors of the scheme are Trusted Authority (TA) which is responsible for storing information in a trusted cloud server. Road-Side-Units (RSU) are road infrastructure fixed to the roadside which is responsible for authentication vehicles instead of simply acting as intermediate node and communicating with the trusted authority through a wired connection. On-Bord-Units (OBU) are equipped on each vehicle which collect data from surrounding and communicates with the roadside units in a wireless channel via Dedicated Short-Range Communication (DSRC) protocol. \\
+			In this paper, the authors propose a scheme (its architecture is shown in Fig. \ref{fig:paper15-1}) which reduces energy consumption and authentication efficiency, and the actors of the scheme are Trusted Authority (TA) which is responsible for storing information in a trusted cloud server. Road-Side-Units (RSU) are road infrastructure fixed to the roadside which is responsible for authentication vehicles instead of simply acting as intermediate node and communicating with the trusted authority through a wired connection. On-Bord-Units (OBU) are equipped on each vehicle which collect data from surrounding and communicates with the roadside units in a wireless channel via Dedicated Short-Range Communication (DSRC) protocol. \\
 			The Authors propose a secure and computationally efficient authentication and key agreement scheme for the IoV using XOR and hash function operations, which mean the scheme uses less energy which is not enough for the security of the system and the cloud server is too slow for the real time services and safety related communication which is a set back in the proposed scheme. 
-			\newpage
-			\hspace{0pt}
-			\vfill
-				\begin{table}[H]
-					\tiny
-					\centering
-					\caption{Comparison between Related Schemes.}
-					\begin{tabular}{ c  c | c | c | c | c | c | c | c | c |}
-						& & \cite{paper1} & \cite{paper2} & \cite{paper3} & \cite{paper4} & \cite{paper5} & \cite{paper6} & \cite{paper7} & \cite{paper8}\\
-						\hline
-						\multicolumn{2}{|c|}{Blockchain-based} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
-						\hline
-						\multicolumn{2}{|c|}{Blockchain Type} & Public & Private & \textminus & Private & Consortium & N/A (Private) & Public & Public\\
-						\hline
-						\multicolumn{2}{|c|}{Decentralization} & \ding{51} & \ding{51} & \ding{53} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
-						\hline
-						\multicolumn{2}{|c|}{Scalable} & \ding{51} & \ding{53} & \ding{51} & \ding{53} & \ding{53} & \ding{51} & \ding{51} & \ding{51}\\
-						\hline
-						\multicolumn{2}{|c|}{Use of Certificates} & \ding{51} & \ding{53} & \ding{51} & \ding{51} & \ding{51} & \textminus & \ding{51} & \ding{51}\\
-						\hline
-						\multicolumn{2}{|c|}{Vehicle Revocation} & \ding{53} & \ding{51} & \textminus & \ding{53} & \ding{51} & \textminus & \ding{51} & \ding{53}\\
-						\hline
-						\multicolumn{2}{|c|}{Vehicle Registration} & \ding{51} & \ding{51} & \ding{51} & \textminus & \ding{51} & \textminus & \ding{51} & \ding{51}\\
-						\hline
-						\multicolumn{2}{|c|}{Vehicle Privacy} & \ding{51} & \textminus & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
-						\hline
-						\multicolumn{2}{|c|}{Unique Vehicle ID} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \textminus & \ding{51} & \ding{51}\\
-						\hline
-						\multicolumn{2}{|c|}{Cryptography Algorithm} & \textminus & \textminus & \textminus & Asymmetric & ZKP & \textminus & ECC with ECDSA & ECC with ePPTA\\
-						\hline
-						\multicolumn{2}{|c|}{Consensus Algorithm} & PoW & \textminus & Rayleigh & \textminus & PBFT & \textminus & dPoW & \textminus\\
-						\hline
-						\multicolumn{1}{|c|}{\multirow{6}{*}{Security goals}} & Confidentiality & \ding{51} & \ding{51} & \textminus & \ding{51} & \ding{51} & \textminus & \textminus & \ding{51}\\
-						\cline{2-10}
-						\multicolumn{1}{|c|}{} & Integrity & \ding{51} & \ding{51} & \textminus & \ding{51} & \textminus & \ding{51} & \ding{51} & \ding{51}\\
-						\cline{2-10}
-						\multicolumn{1}{|c|}{} & Anonymity & \ding{51} & \textminus & \textminus & \textminus & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
-						\cline{2-10}
-						\multicolumn{1}{|c|}{} & Mutual authentication & \ding{51} & \ding{51} & \textminus & \ding{53} & \ding{51} & \textminus & \ding{51} & \ding{51}\\
-						\cline{2-10}
-						\multicolumn{1}{|c|}{} & Privacy & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
-						\cline{2-10}
-						\multicolumn{1}{|c|}{} & Traceability and Non-repudiation & \ding{51} & \ding{51} & \textminus & \textminus & \ding{51} & \textminus & \ding{51} & \textminus\\
-						\hline
-						\multicolumn{1}{|c|}{\multirow{8}{*}{Resistance to}} & DDoS attacks & \ding{51} & \ding{51} & \textminus & \ding{51} & \ding{51} & \textminus & \ding{51} & \ding{51}\\
-						\cline{2-10}
-						\multicolumn{1}{|c|}{} & Replay attacks & \ding{51} & \textminus & \textminus & \textminus & \ding{51} & \textminus & \ding{51} & \ding{51}\\
-						\cline{2-10}
-						\multicolumn{1}{|c|}{} & Man-in-the-middle attacks & \ding{51} & \textminus & \textminus & \textminus & \ding{51} & \textminus & \textminus & \ding{51}\\
-						\cline{2-10}
-						\multicolumn{1}{|c|}{} & Identity theft attacks & \ding{51} & \textminus & \textminus & \ding{51} & \ding{51} & \textminus & \ding{51} & \ding{51}\\
-						\cline{2-10}
-						\multicolumn{1}{|c|}{} & Traffic analysis attacks & \textminus & \textminus & \textminus & \textminus & \textminus & \textminus & \textminus & \ding{51}\\
-						\cline{2-10}
-						\multicolumn{1}{|c|}{} & Masquerading attacks & \ding{51} & \textminus & \textminus & \textminus & \ding{51} & \textminus & \ding{51} & \ding{51}\\
-						\cline{2-10}
-						\multicolumn{1}{|c|}{} & Session-key-disclosure attacks & \textminus & \textminus & \textminus & \textminus & \ding{51} & \textminus & \textminus & \ding{51}\\
-						\cline{2-10}
-						\multicolumn{1}{|c|}{} & 51\% attacks & \ding{53} & \textminus & \textminus & \ding{53} & \ding{51} & \ding{51} & \ding{51} & \textminus\\
-						\hline
-						\multicolumn{2}{|c|}{RSU-aided authentication function} & \textminus & \ding{51} & \textminus & \ding{53} & \ding{51} & \textminus & \textminus & \ding{53}\\
-						\hline
-						\multicolumn{2}{|c|}{Vehicle impersonation} & \ding{51} & \textminus & \textminus & \textminus & \textminus & \textminus & \ding{53} & \ding{51}\\
-						\hline
-						\multicolumn{2}{|c|}{Eliminate single point of failure} & \ding{51} & \ding{51} & \textminus & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
-						\hline
-						\multicolumn{2}{|c|}{Calculate communication overhead} & \ding{51} & \ding{51} & \ding{51} & \ding{53} & \ding{51} & \textminus & \ding{51} & \textminus\\
-						\hline
-					\end{tabular}
-				\end{table}
-				\begin{table}[H]
-					\tiny
-					\centering
-					\caption{Comparison between Related Schemes (Continued).}
-					\begin{tabular}{ c  c | c | c | c | c | c | c | c |}
-						& & \cite{paper9} & \cite{paper10} & \cite{paper11} & \cite{paper12} & \cite{paper16} & \cite{paper14} & \cite{paper15}\\
-						\hline
-						\multicolumn{2}{|c|}{Blockchain-based} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{53}\\
-						\hline
-						\multicolumn{2}{|c|}{Blockchain Type} & Hybrid & Public & Private & Private & Public & Private (Consortium) & \textminus\\
-						\hline
-						\multicolumn{2}{|c|}{Decentralization} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{53}\\
-						\hline
-						\multicolumn{2}{|c|}{Scalable} & \ding{53} & \ding{51} & \ding{51} & \textminus & \textminus & \textminus & \ding{51}\\
-						\hline
-						\multicolumn{2}{|c|}{Use of Certificates} & \ding{53} & \ding{53} & \ding{51} & \ding{53} & \ding{53} & \ding{53} & \ding{53}\\
-						\hline
-						\multicolumn{2}{|c|}{Vehicle Revocation} & \ding{53} & \ding{53} & \ding{51} & \ding{53} & \ding{53} & \ding{53} & \ding{51}\\
-						\hline
-						\multicolumn{2}{|c|}{Vehicle Registration} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
-						\hline
-						\multicolumn{2}{|c|}{Vehicle Privacy} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
-						\hline
-						\multicolumn{2}{|c|}{Unique Vehicle ID} & \textminus & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
-						\hline
-						\multicolumn{2}{|c|}{Cryptography Algorithm} & \textminus & PKC and SKC & ECC & UGG, LPP and IPP & PK and DSA & Hybrid & \textminus\\
-						\hline
-						\multicolumn{2}{|c|}{Consensus Algorithm} & No consensus used & \textminus & PBFT & \textminus & \textminus & \textminus & \textminus\\
-						\hline
-						\multicolumn{1}{|c|}{\multirow{6}{*}{Security goals}} & Confidentiality & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
-						\cline{2-9}
-						\multicolumn{1}{|c|}{} & Integrity & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
-						\cline{2-9}
-						\multicolumn{1}{|c|}{} & Anonymity & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
-						\cline{2-9}
-						\multicolumn{1}{|c|}{} & Mutual authentication & \ding{53} & \ding{53} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{53}\\
-						\cline{2-9}
-						\multicolumn{1}{|c|}{} & Privacy & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
-						\cline{2-9}
-						\multicolumn{1}{|c|}{} & Traceability and Non-repudiation & \textminus & \textminus & \ding{51} & \textminus & \ding{51} & \textminus & \textminus\\
-						\hline
-						\multicolumn{1}{|c|}{\multirow{8}{*}{Resistance to}} & DDoS attacks & \textminus & \ding{51} & \ding{51} & \textminus & \textminus & \textminus & \textminus\\
-						\cline{2-9}
-						\multicolumn{1}{|c|}{} & Replay attacks & \textminus & \ding{51} & \ding{51} & \textminus & \ding{51} & \textminus & \ding{51}\\
-						\cline{2-9}
-						\multicolumn{1}{|c|}{} & Man-in-the-middle attacks & \textminus & \textminus & \ding{51} & \textminus & \ding{51} & \textminus & \ding{51}\\
-						\cline{2-9}
-						\multicolumn{1}{|c|}{} & Identity theft attacks & \ding{53} & \ding{53} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
-						\cline{2-9}
-						\multicolumn{1}{|c|}{} & Traffic analysis attacks & \ding{53} & \ding{51} & \ding{51} & \textminus & \ding{51} & \textminus & \textminus\\
-						\cline{2-9}
-						\multicolumn{1}{|c|}{} & Masquerading attacks & \ding{51} & \ding{53} & \ding{51} & \textminus & \ding{51} & \textminus & \ding{51}\\
-						\cline{2-9}
-						\multicolumn{1}{|c|}{} & Session-key-disclosure attacks & \textminus & \textminus & \ding{51} & \textminus & \ding{51} & \ding{51} & \textminus\\
-						\cline{2-9}
-						\multicolumn{1}{|c|}{} & 51\% attacks & \ding{51} & \textminus & \ding{51} & \textminus & \textminus & \textminus & \textminus\\
-						\hline
-						\multicolumn{2}{|c|}{RSU-aided authentication function} & \ding{53} & \ding{53} & \textminus & \textminus & \ding{51} & \ding{51} & \ding{51}\\
-						\hline
-						\multicolumn{2}{|c|}{Vehicle impersonation} & \ding{51} & \ding{53} & \ding{51} & \ding{51} & \ding{51} & \ding{53} & \ding{51}\\
-						\hline
-						\multicolumn{2}{|c|}{Eliminate single point of failure} & \ding{51} & \ding{53} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{53}\\
-						\hline
-						\multicolumn{2}{|c|}{Calculate communication overhead} & \ding{51} & \textminus & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
-						\hline
-					\end{tabular}
-				\end{table}
-			\vfill
-			\hspace{0pt}
+		
+			\begin{sidewaystable}
+				\normalsize
+				\centering
+				\caption{Comparison between Related Schemes.}
+				\begin{tabular}{ c  c | c | c | c | c | c | c | c | c |}
+					& & \cite{paper1} & \cite{paper2} & \cite{paper3} & \cite{paper4} & \cite{paper5} & \cite{paper6} & \cite{paper7} & \cite{paper8}\\
+					\hline
+					\multicolumn{2}{|c|}{Blockchain-based} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
+					\hline
+					\multicolumn{2}{|c|}{Blockchain Type} & Public & Private & \textminus & Private & Consortium & N/A (Private) & Public & Public\\
+					\hline
+					\multicolumn{2}{|c|}{Decentralization} & \ding{51} & \ding{51} & \ding{53} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
+					\hline
+					\multicolumn{2}{|c|}{Scalable} & \ding{51} & \ding{53} & \ding{51} & \ding{53} & \ding{53} & \ding{51} & \ding{51} & \ding{51}\\
+					\hline
+					\multicolumn{2}{|c|}{Use of Certificates} & \ding{51} & \ding{53} & \ding{51} & \ding{51} & \ding{51} & \textminus & \ding{51} & \ding{51}\\
+					\hline
+					\multicolumn{2}{|c|}{Vehicle Revocation} & \ding{53} & \ding{51} & \textminus & \ding{53} & \ding{51} & \textminus & \ding{51} & \ding{53}\\
+					\hline
+					\multicolumn{2}{|c|}{Vehicle Registration} & \ding{51} & \ding{51} & \ding{51} & \textminus & \ding{51} & \textminus & \ding{51} & \ding{51}\\
+					\hline
+					\multicolumn{2}{|c|}{Vehicle Privacy} & \ding{51} & \textminus & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
+					\hline
+					\multicolumn{2}{|c|}{Unique Vehicle ID} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \textminus & \ding{51} & \ding{51}\\
+					\hline
+					\multicolumn{2}{|c|}{Cryptography Algorithm} & \textminus & \textminus & \textminus & Asymmetric & ZKP & \textminus & ECC with ECDSA & ECC with ePPTA\\
+					\hline
+					\multicolumn{2}{|c|}{Consensus Algorithm} & PoW & \textminus & Rayleigh & \textminus & PBFT & \textminus & dPoW & \textminus\\
+					\hline
+					\multicolumn{1}{|c|}{\multirow{6}{*}{Security goals}} & Confidentiality & \ding{51} & \ding{51} & \textminus & \ding{51} & \ding{51} & \textminus & \textminus & \ding{51}\\
+					\cline{2-10}
+					\multicolumn{1}{|c|}{} & Integrity & \ding{51} & \ding{51} & \textminus & \ding{51} & \textminus & \ding{51} & \ding{51} & \ding{51}\\
+					\cline{2-10}
+					\multicolumn{1}{|c|}{} & Anonymity & \ding{51} & \textminus & \textminus & \textminus & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
+					\cline{2-10}
+					\multicolumn{1}{|c|}{} & Mutual authentication & \ding{51} & \ding{51} & \textminus & \ding{53} & \ding{51} & \textminus & \ding{51} & \ding{51}\\
+					\cline{2-10}
+					\multicolumn{1}{|c|}{} & Privacy & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
+					\cline{2-10}
+					\multicolumn{1}{|c|}{} & Traceability and Non-repudiation & \ding{51} & \ding{51} & \textminus & \textminus & \ding{51} & \textminus & \ding{51} & \textminus\\
+					\hline
+					\multicolumn{1}{|c|}{\multirow{8}{*}{Resistance to}} & DDoS attacks & \ding{51} & \ding{51} & \textminus & \ding{51} & \ding{51} & \textminus & \ding{51} & \ding{51}\\
+					\cline{2-10}
+					\multicolumn{1}{|c|}{} & Replay attacks & \ding{51} & \textminus & \textminus & \textminus & \ding{51} & \textminus & \ding{51} & \ding{51}\\
+					\cline{2-10}
+					\multicolumn{1}{|c|}{} & Man-in-the-middle attacks & \ding{51} & \textminus & \textminus & \textminus & \ding{51} & \textminus & \textminus & \ding{51}\\
+					\cline{2-10}
+					\multicolumn{1}{|c|}{} & Identity theft attacks & \ding{51} & \textminus & \textminus & \ding{51} & \ding{51} & \textminus & \ding{51} & \ding{51}\\
+					\cline{2-10}
+					\multicolumn{1}{|c|}{} & Traffic analysis attacks & \textminus & \textminus & \textminus & \textminus & \textminus & \textminus & \textminus & \ding{51}\\
+					\cline{2-10}
+					\multicolumn{1}{|c|}{} & Masquerading attacks & \ding{51} & \textminus & \textminus & \textminus & \ding{51} & \textminus & \ding{51} & \ding{51}\\
+					\cline{2-10}
+					\multicolumn{1}{|c|}{} & Session-key-disclosure attacks & \textminus & \textminus & \textminus & \textminus & \ding{51} & \textminus & \textminus & \ding{51}\\
+					\cline{2-10}
+					\multicolumn{1}{|c|}{} & 51\% attacks & \ding{53} & \textminus & \textminus & \ding{53} & \ding{51} & \ding{51} & \ding{51} & \textminus\\
+					\hline
+					\multicolumn{2}{|c|}{RSU-aided authentication function} & \textminus & \ding{51} & \textminus & \ding{53} & \ding{51} & \textminus & \textminus & \ding{53}\\
+					\hline
+					\multicolumn{2}{|c|}{Vehicle impersonation} & \ding{51} & \textminus & \textminus & \textminus & \textminus & \textminus & \ding{53} & \ding{51}\\
+					\hline
+					\multicolumn{2}{|c|}{Eliminate single point of failure} & \ding{51} & \ding{51} & \textminus & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
+					\hline
+					\multicolumn{2}{|c|}{Calculate communication overhead} & \ding{51} & \ding{51} & \ding{51} & \ding{53} & \ding{51} & \textminus & \ding{51} & \textminus\\
+					\hline
+				\end{tabular}
+			\end{sidewaystable}
+			\begin{sidewaystable}
+				\normalsize
+				\centering
+				\caption{Comparison between Related Schemes (Continued).}
+				\begin{tabular}{ c  c | c | c | c | c | c | c | c |}
+					& & \cite{paper9} & \cite{paper10} & \cite{paper11} & \cite{paper12} & \cite{paper16} & \cite{paper14} & \cite{paper15}\\
+					\hline
+					\multicolumn{2}{|c|}{Blockchain-based} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{53}\\
+					\hline
+					\multicolumn{2}{|c|}{Blockchain Type} & Hybrid & Public & Private & Private & Public & Private (Consortium) & \textminus\\
+					\hline
+					\multicolumn{2}{|c|}{Decentralization} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{53}\\
+					\hline
+					\multicolumn{2}{|c|}{Scalable} & \ding{53} & \ding{51} & \ding{51} & \textminus & \textminus & \textminus & \ding{51}\\
+					\hline
+					\multicolumn{2}{|c|}{Use of Certificates} & \ding{53} & \ding{53} & \ding{51} & \ding{53} & \ding{53} & \ding{53} & \ding{53}\\
+					\hline
+					\multicolumn{2}{|c|}{Vehicle Revocation} & \ding{53} & \ding{53} & \ding{51} & \ding{53} & \ding{53} & \ding{53} & \ding{51}\\
+					\hline
+					\multicolumn{2}{|c|}{Vehicle Registration} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
+					\hline
+					\multicolumn{2}{|c|}{Vehicle Privacy} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
+					\hline
+					\multicolumn{2}{|c|}{Unique Vehicle ID} & \textminus & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
+					\hline
+					\multicolumn{2}{|c|}{Cryptography Algorithm} & \textminus & PKC and SKC & ECC & UGG, LPP and IPP & PK and DSA & Hybrid & \textminus\\
+					\hline
+					\multicolumn{2}{|c|}{Consensus Algorithm} & No consensus used & \textminus & PBFT & \textminus & \textminus & \textminus & \textminus\\
+					\hline
+					\multicolumn{1}{|c|}{\multirow{6}{*}{Security goals}} & Confidentiality & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
+					\cline{2-9}
+					\multicolumn{1}{|c|}{} & Integrity & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
+					\cline{2-9}
+					\multicolumn{1}{|c|}{} & Anonymity & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
+					\cline{2-9}
+					\multicolumn{1}{|c|}{} & Mutual authentication & \ding{53} & \ding{53} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{53}\\
+					\cline{2-9}
+					\multicolumn{1}{|c|}{} & Privacy & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
+					\cline{2-9}
+					\multicolumn{1}{|c|}{} & Traceability and Non-repudiation & \textminus & \textminus & \ding{51} & \textminus & \ding{51} & \textminus & \textminus\\
+					\hline
+					\multicolumn{1}{|c|}{\multirow{8}{*}{Resistance to}} & DDoS attacks & \textminus & \ding{51} & \ding{51} & \textminus & \textminus & \textminus & \textminus\\
+					\cline{2-9}
+					\multicolumn{1}{|c|}{} & Replay attacks & \textminus & \ding{51} & \ding{51} & \textminus & \ding{51} & \textminus & \ding{51}\\
+					\cline{2-9}
+					\multicolumn{1}{|c|}{} & Man-in-the-middle attacks & \textminus & \textminus & \ding{51} & \textminus & \ding{51} & \textminus & \ding{51}\\
+					\cline{2-9}
+					\multicolumn{1}{|c|}{} & Identity theft attacks & \ding{53} & \ding{53} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
+					\cline{2-9}
+					\multicolumn{1}{|c|}{} & Traffic analysis attacks & \ding{53} & \ding{51} & \ding{51} & \textminus & \ding{51} & \textminus & \textminus\\
+					\cline{2-9}
+					\multicolumn{1}{|c|}{} & Masquerading attacks & \ding{51} & \ding{53} & \ding{51} & \textminus & \ding{51} & \textminus & \ding{51}\\
+					\cline{2-9}
+					\multicolumn{1}{|c|}{} & Session-key-disclosure attacks & \textminus & \textminus & \ding{51} & \textminus & \ding{51} & \ding{51} & \textminus\\
+					\cline{2-9}
+					\multicolumn{1}{|c|}{} & 51\% attacks & \ding{51} & \textminus & \ding{51} & \textminus & \textminus & \textminus & \textminus\\
+					\hline
+					\multicolumn{2}{|c|}{RSU-aided authentication function} & \ding{53} & \ding{53} & \textminus & \textminus & \ding{51} & \ding{51} & \ding{51}\\
+					\hline
+					\multicolumn{2}{|c|}{Vehicle impersonation} & \ding{51} & \ding{53} & \ding{51} & \ding{51} & \ding{51} & \ding{53} & \ding{51}\\
+					\hline
+					\multicolumn{2}{|c|}{Eliminate single point of failure} & \ding{51} & \ding{53} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{53}\\
+					\hline
+					\multicolumn{2}{|c|}{Calculate communication overhead} & \ding{51} & \textminus & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51}\\
+					\hline
+				\end{tabular}
+			\end{sidewaystable}
 		

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.12) (format=lualatex 2022.2.16)  24 FEB 2022 03:46
+This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.12) (format=lualatex 2022.2.16)  24 FEB 2022 18:06
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -612,7 +612,41 @@ Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
 LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 (Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
 )
-(C:/Users/moham/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hyperref.sty
+(C:/Users/moham/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(C:/Users/moham/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen291
+\captionmargin@=\dimen292
+\captionwidth=\dimen293
+\caption@tempdima=\dimen294
+\caption@indent=\dimen295
+\caption@parindent=\dimen296
+\caption@hangindent=\dimen297
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\par \ifdim \prevdepth 
+>-\p@ \vskip 10\p@ \relax \fi \setbox \@tempboxa \hbox {\vbox to\topskip {}#1: 
+#2\unskip \strut }\ifdim \wd \@tempboxa >\hsize {\ssp #1: #2\unskip \strut \par
+ } \else \hbox to\hsize {\hfil \unhbox \@tempboxa \hfil }\fi  on input line 113
+9.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count345
+\c@continuedfloat=\count346
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+(C:/Users/moham/AppData/Local/Programs/MiKTeX/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+) (C:/Users/moham/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
 
 (C:/Users/moham/AppData/Local/Programs/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty
@@ -656,9 +690,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (C:/Users/moham/AppData/Local/Programs/MiKTeX/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen291
-\Hy@linkcounter=\count345
-\Hy@pagecounter=\count346
+\@linkdim=\dimen298
+\Hy@linkcounter=\count347
+\Hy@pagecounter=\count348
  (C:/Users/moham/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
 )
@@ -673,7 +707,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (C:/Users/moham/AppData/Local/Programs/MiKTeX/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count347
+\Hy@SavedSpaceFactor=\count349
  (C:/Users/moham/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
 )
@@ -685,9 +719,9 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count348
+\c@Hy@tempcnt=\count350
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen292
+\XeTeXLinkMargin=\dimen299
 
 (C:/Users/moham/AppData/Local/Programs/MiKTeX/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -697,9 +731,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count349
-\Field@Width=\dimen293
-\Fld@charsize=\dimen294
+\Fld@menulength=\count351
+\Field@Width=\dimen300
+\Fld@charsize=\dimen301
 Package hyperref Info: Hyper figures OFF on input line 6076.
 Package hyperref Info: Link nesting OFF on input line 6081.
 Package hyperref Info: Hyper index ON on input line 6084.
@@ -714,9 +748,9 @@ LaTeX Info: Redefining \pageref on input line 6150.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count350
-\c@Item=\count351
-\c@Hfootnote=\count352
+\Hy@abspage=\count352
+\c@Item=\count353
+\c@Hfootnote=\count354
 )
 Package hyperref Info: Driver (autodetected): hluatex.
 (C:/Users/moham/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hluatex.def
@@ -732,8 +766,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count353
-\c@bookmark@seq@number=\count354
+\Fld@listcount=\count355
+\c@bookmark@seq@number=\count356
 
 (C:/Users/moham/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfil
 echeck.sty
@@ -839,8 +873,8 @@ Package babel Info: Non-standard hyphenation setup on input line 118.
 \babelcatcodetablenum=\catcodetable12
 \bbl@pattcodes=\catcodetable13
 )
-\babel@savecnt=\count355
-\U@D=\dimen295
+\babel@savecnt=\count357
+\U@D=\dimen302
 \l@unhyphenated=\language79
 
 (C:/Users/moham/AppData/Local/Programs/MiKTeX/tex/generic/babel/luababel.def
@@ -904,7 +938,7 @@ lig;+smcp;"
 (fontspec)             <->"TimesNewRoman/BI:mode=node;script=latn;language=dflt
 ;+tlig;+smcp;"
 
-\enitdp@mylist=\count356
+\enitdp@mylist=\count358
 
 
 LaTeX Warning: Unused global option(s):
@@ -938,31 +972,31 @@ LaTeX Warning: Label `' multiply defined.
 )
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
-3.
+5.
  (C:/Users/moham/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1004,63 +1038,63 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 43.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 43.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 43.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 43.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 43.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 43.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 43.
-LaTeX Font Info:    Redeclaring math accent \check on input line 43.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 43.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 43.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 43.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 43.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 45.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 45.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 45.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 45.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 45.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 45.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 45.
+LaTeX Font Info:    Redeclaring math accent \check on input line 45.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 45.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 45.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 45.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 45.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 43.
+(Font)              `operators' in the math version `normal' on input line 45.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 4
-3.
+5.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 43.
+(Font)              `operators' in the math version `bold' on input line 45.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
-43.
+45.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
-input line 43.
+input line 45.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 43.
+ 45.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
-43.
+45.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 43.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 45.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 43.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 45.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
-input line 43.
+input line 45.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
-e 43.
+e 45.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 43.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 45.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 43.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 45.
 
 (C:/Users/moham/AppData/Local/Programs/MiKTeX/tex/latex/ninecolors/ninecolors.s
 ty
@@ -1070,16 +1104,16 @@ Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
 (C:/Users/moham/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count357
-\scratchdimen=\dimen296
+\scratchcounter=\count359
+\scratchdimen=\dimen303
 \scratchbox=\box93
-\nofMPsegments=\count358
-\nofMParguments=\count359
+\nofMPsegments=\count360
+\nofMParguments=\count361
 \everyMPshowfont=\toks42
-\MPscratchCnt=\count360
-\MPscratchDim=\dimen297
-\MPnumerator=\count361
-\makeMPintoPDFobject=\count362
+\MPscratchCnt=\count362
+\MPscratchDim=\dimen304
+\MPnumerator=\count363
+\makeMPintoPDFobject=\count364
 \everyMPtoPDFconversion=\toks43
 )
 (C:/Users/moham/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-b
@@ -1092,8 +1126,11 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@lstlisting=\count363
-Package hyperref Info: Link coloring OFF on input line 43.
+\c@lstlisting=\count365
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring OFF on input line 45.
 
 (C:/Users/moham/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1105,11 +1142,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count364
+\c@section@level=\count366
 )
-LaTeX Info: Redefining \ref on input line 43.
-LaTeX Info: Redefining \pageref on input line 43.
-LaTeX Info: Redefining \nameref on input line 43.
+LaTeX Info: Redefining \ref on input line 45.
+LaTeX Info: Redefining \pageref on input line 45.
+LaTeX Info: Redefining \nameref on input line 45.
  (./main.out) (./main.out)
 \@outlinefile=\write3
 
@@ -1118,17 +1155,27 @@ LaTeX Info: Redefining \nameref on input line 43.
 <i/../images/preample/bu_icon.png, id=183, 273.02pt x 185.69376pt>
 File: i/../images/preample/bu_icon.png Graphic file (type png)
 <use i/../images/preample/bu_icon.png>
-Package luatex.def Info: i/../images/preample/bu_icon.png  used on input line 7
+Package luatex.def Info: i/../images/preample/bu_icon.png  used on input line 9
 .
-(luatex.def)             Requested size: 266.03473pt x 180.95293pt.
+(luatex.def)             Requested size: 169.29684pt x 115.14594pt.
 <i/../images/preample/feng_icon.jpg, id=184, 215.80624pt x 234.8775pt>
 File: i/../images/preample/feng_icon.jpg Graphic file (type jpg)
 <use i/../images/preample/feng_icon.jpg>
 Package luatex.def Info: i/../images/preample/feng_icon.jpg  used on input line
- 9.
-(luatex.def)             Requested size: 193.47577pt x 210.5814pt.
+ 11.
+(luatex.def)             Requested size: 96.73788pt x 105.28532pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--12
+Underfull \hbox (badness 10000) in paragraph at lines 3--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--13
 
  []
 
@@ -1155,7 +1202,7 @@ LaTeX Font Info:    Trying to load font information for U+wasy on input line 2.
 (C:/Users/moham/AppData/Local/Programs/MiKTeX/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-Overfull \hbox (2.21455pt too wide) in paragraph at lines 74--74
+Overfull \hbox (2.21455pt too wide) in paragraph at lines 73--73
  [][] [][]\TU/TimesNewRoman(0)/m/n/10.95 A lightweight anony-mous cross-regional
  mu-tual au-then-ti-ca-tion scheme us-ing blockchain 
  []
@@ -1163,13 +1210,13 @@ Overfull \hbox (2.21455pt too wide) in paragraph at lines 74--74
 [4
 
 ]
-Overfull \hbox (8.71779pt too wide) in paragraph at lines 80--80
+Overfull \hbox (8.71779pt too wide) in paragraph at lines 79--79
  [][] [][]\TU/TimesNewRoman(0)/m/n/10.95 A Scal-able Pro-to-col for Driv-ing Tru
 st Man-age-ment in In-ter-net of Ve-hi-cles with Blockchain 
  []
 
 
-Overfull \hbox (21.47232pt too wide) in paragraph at lines 86--86
+Overfull \hbox (21.47232pt too wide) in paragraph at lines 85--85
  [][] [][]\TU/TimesNewRoman(0)/m/n/10.95 Hy-brid Cryp-to-graphic Pro-to-col for Se-cure Ve-hi-cle Data Shar-ing over Con-sor-tium Blockchain 
  []
 
@@ -1177,17 +1224,17 @@ Overfull \hbox (21.47232pt too wide) in paragraph at lines 86--86
 \tf@toc=\write4
 
 \openout4 = main.toc
- [5]) (./Preamble/Lists.tex (./main.lof)
+ [5]) (./Preamble/Lists.tex (./main.lof [6
+
+])
 \tf@lof=\write5
 
 \openout5 = main.lof
- [6
-
-] (./main.lot)
+ [7] (./main.lot)
 \tf@lot=\write6
 
 \openout6 = main.lot
- [7
+ [8
 
 ])
 (./Preamble/Abbreviations.tex
@@ -1195,7 +1242,7 @@ Overfull \hbox (21.47232pt too wide) in paragraph at lines 86--86
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 2.
 
-[8] [9] [10]) (./Preamble/Abstract.tex
+[9] [10] [11]) (./Preamble/Abstract.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
@@ -1207,7 +1254,7 @@ i-gent Trans-porta-tion Sys-tems, In-ter-net of Ve-hi-cles, Ve-hi-cle Ad-hoc Net
 -work, Cryp-tog-ra-phy, Blockchain,
  []
 
-[11]) (./Preamble/ChapterMods.tex) (./Chapter1/Chapter1.tex
+[12]) (./Preamble/ChapterMods.tex) (./Chapter1/Chapter1.tex
 Chapter 1.
 [1
 
@@ -1222,117 +1269,292 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--46
  []
 
 [2] [3]
-<i/../images/chapter1/project_plan.png, id=432, 584.1825pt x 594.72188pt>
+<i/../images/chapter1/project_plan.png, id=466, 584.1825pt x 594.72188pt>
 File: i/../images/chapter1/project_plan.png Graphic file (type png)
 <use i/../images/chapter1/project_plan.png>
 Package luatex.def Info: i/../images/chapter1/project_plan.png  used on input l
 ine 67.
 (luatex.def)             Requested size: 483.69684pt x 492.43933pt.
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.69 			\caption{Project Time Plan.}
+                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ) (./Chapter2/Chapter2.tex [4<./i/../images/chapter1/project_plan.png>]
 Chapter 2.
 [5
 
 ]
-<i/../images/chapter2/vanet1.jpg, id=447, 330.65125pt x 266.69548pt>
+<i/../images/chapter2/vanet1.jpg, id=481, 330.65125pt x 266.69548pt>
 File: i/../images/chapter2/vanet1.jpg Graphic file (type jpg)
 <use i/../images/chapter2/vanet1.jpg>
 Package luatex.def Info: i/../images/chapter2/vanet1.jpg  used on input line 29
 .
 (luatex.def)             Requested size: 314.39998pt x 253.60342pt.
-<i/../images/chapter2/vanet3.jpg, id=450, 326.17433pt x 168.20363pt>
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.31 ...mple of a VANET \cite{obaidat2015modeling}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<i/../images/chapter2/vanet3.jpg, id=485, 326.17433pt x 168.20363pt>
 File: i/../images/chapter2/vanet3.jpg Graphic file (type jpg)
 <use i/../images/chapter2/vanet3.jpg>
 Package luatex.def Info: i/../images/chapter2/vanet3.jpg  used on input line 36
 .
 (luatex.def)             Requested size: 483.69684pt x 249.44821pt.
- [6<./i/../images/chapter2/vanet1.jpg>]
-<i/../images/chapter2/vanet4.jpg, id=459, 406.75859pt x 123.4346pt>
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.38 ...ios in VANETs \cite{rodrigues2020advances}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[6<./i/../images/chapter2/vanet1.jpg>]
+<i/../images/chapter2/vanet4.jpg, id=495, 406.75859pt x 123.4346pt>
 File: i/../images/chapter2/vanet4.jpg Graphic file (type jpg)
 <use i/../images/chapter2/vanet4.jpg>
 Package luatex.def Info: i/../images/chapter2/vanet4.jpg  used on input line 57
 .
 (luatex.def)             Requested size: 483.69684pt x 146.7835pt.
- [7<./i/../images/chapter2/vanet3.jpg>] [8<./i/../images/chapter2/vanet4.jpg>]
-<i/../images/chapter2/iov1.png, id=486, 543.53062pt x 502.12593pt>
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.59 ...VANET Applications \cite{obaidat2016smart}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[7<./i/../images/chapter2/vanet3.jpg>] [8<./i/../images/chapter2/vanet4.jpg>]
+<i/../images/chapter2/iov1.png, id=523, 543.53062pt x 502.12593pt>
 File: i/../images/chapter2/iov1.png Graphic file (type png)
 <use i/../images/chapter2/iov1.png>
-Package luatex.def Info: i/../images/chapter2/iov1.png  used on input line 91.
-(luatex.def)             Requested size: 261.19304pt x 241.30885pt.
- [9]
-<i/../images/chapter2/iov2.png, id=498, 496.85625pt x 371.88937pt>
+Package luatex.def Info: i/../images/chapter2/iov1.png  used on input line 92.
+(luatex.def)             Requested size: 203.15178pt x 187.67615pt.
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.94 ...work Architecture \cite{buyya2016internet}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[9<./i/../images/chapter2/iov1.png>]
+<i/../images/chapter2/iov2.png, id=538, 496.85625pt x 371.88937pt>
 File: i/../images/chapter2/iov2.png Graphic file (type png)
 <use i/../images/chapter2/iov2.png>
-Package luatex.def Info: i/../images/chapter2/iov2.png  used on input line 123.
+Package luatex.def Info: i/../images/chapter2/iov2.png  used on input line 124.
 
-(luatex.def)             Requested size: 386.95894pt x 289.63559pt.
- [10<./i/../images/chapter2/iov1.png>] [11<./i/../images/chapter2/iov2.png>]
+(luatex.def)             Requested size: 256.35872pt x 191.87982pt.
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.126 ...IoV Applications \cite{buyya2016internet}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[10<./i/../images/chapter2/iov2.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 130.
+(hyperref)                removing `\@ifnextchar' on input line 131.
 
-<i/../images/chapter2/crypto1.png, id=516, 852.18375pt x 291.33844pt>
+<i/../images/chapter2/crypto1.png, id=550, 852.18375pt x 291.33844pt>
 File: i/../images/chapter2/crypto1.png Graphic file (type png)
 <use i/../images/chapter2/crypto1.png>
 Package luatex.def Info: i/../images/chapter2/crypto1.png  used on input line 1
-33.
+34.
 (luatex.def)             Requested size: 483.69684pt x 165.36668pt.
-<i/../images/chapter2/crypto2.png, id=519, 882.29625pt x 247.67531pt>
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.136 ...f Cryptology \cite{paar2009understanding}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<i/../images/chapter2/crypto2.png, id=554, 882.29625pt x 247.67531pt>
 File: i/../images/chapter2/crypto2.png Graphic file (type png)
 <use i/../images/chapter2/crypto2.png>
 Package luatex.def Info: i/../images/chapter2/crypto2.png  used on input line 1
-52.
+53.
 (luatex.def)             Requested size: 483.69684pt x 135.78345pt.
-[12<./i/../images/chapter2/crypto1.png>]
-<i/../images/chapter2/crypto3.png, id=533, 837.1275pt x 316.18124pt>
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.155 ...cure Channel \cite{paar2009understanding}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<i/../images/chapter2/crypto3.png, id=559, 837.1275pt x 316.18124pt>
 File: i/../images/chapter2/crypto3.png Graphic file (type png)
 <use i/../images/chapter2/crypto3.png>
 Package luatex.def Info: i/../images/chapter2/crypto3.png  used on input line 1
-59.
+60.
 (luatex.def)             Requested size: 483.69684pt x 182.6905pt.
- [13<./i/../images/chapter2/crypto2.png><./i/../images/chapter2/crypto3.png>]
-<i/../images/chapter2/crypto4.png, id=544, 650.43pt x 158.09062pt>
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.162 ...Cryptosystem \cite{paar2009understanding}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[11<./i/../images/chapter2/crypto1.png><./i/../images/chapter2/crypto2.png>]
+<i/../images/chapter2/crypto4.png, id=575, 650.43pt x 158.09062pt>
 File: i/../images/chapter2/crypto4.png Graphic file (type png)
 <use i/../images/chapter2/crypto4.png>
 Package luatex.def Info: i/../images/chapter2/crypto4.png  used on input line 1
 88.
 (luatex.def)             Requested size: 483.69684pt x 117.56898pt.
-<i/../images/chapter2/crypto5.png, id=548, 280.04625pt x 331.99031pt>
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.190 ...y Encryption \cite{paar2009understanding}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[12<./i/../images/chapter2/crypto3.png>]
+<i/../images/chapter2/crypto5.png, id=590, 280.04625pt x 331.99031pt>
 File: i/../images/chapter2/crypto5.png Graphic file (type png)
 <use i/../images/chapter2/crypto5.png>
 Package luatex.def Info: i/../images/chapter2/crypto5.png  used on input line 2
 03.
 (luatex.def)             Requested size: 266.03473pt x 315.39406pt.
- [14<./i/../images/chapter2/crypto4.png>] [15<./i/../images/chapter2/crypto5.png
->]
-<i/../images/chapter2/blockchain1.png, id=574, 257.2812pt x 157.0668pt>
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.205 ...hy Algorithm \cite{paar2009understanding}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[13<./i/../images/chapter2/crypto4.png>] [14<./i/../images/chapter2/crypto5.png>
+]
+<i/../images/chapter2/blockchain1.png, id=613, 257.2812pt x 157.0668pt>
 File: i/../images/chapter2/blockchain1.png Graphic file (type png)
 <use i/../images/chapter2/blockchain1.png>
 Package luatex.def Info: i/../images/chapter2/blockchain1.png  used on input li
 ne 239.
 (luatex.def)             Requested size: 483.69684pt x 295.32394pt.
- [16]
-<i/../images/chapter2/blockchain2.png, id=584, 517.935pt x 227.34938pt>
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.241 ...ption{Blockchain Structure \cite{paper11}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[15]
+<i/../images/chapter2/blockchain2.png, id=624, 517.935pt x 227.34938pt>
 File: i/../images/chapter2/blockchain2.png Graphic file (type png)
 <use i/../images/chapter2/blockchain2.png>
 Package luatex.def Info: i/../images/chapter2/blockchain2.png  used on input li
 ne 250.
 (luatex.def)             Requested size: 483.69684pt x 212.3312pt.
-<i/../images/chapter2/blockchain3.png, id=586, 330.48468pt x 234.8775pt>
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.252 ...ption{Sample Chain \cite{shrestha2020new}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<i/../images/chapter2/blockchain3.png, id=627, 330.48468pt x 234.8775pt>
 File: i/../images/chapter2/blockchain3.png Graphic file (type png)
 <use i/../images/chapter2/blockchain3.png>
 Package luatex.def Info: i/../images/chapter2/blockchain3.png  used on input li
 ne 257.
 (luatex.def)             Requested size: 338.5863pt x 240.64346pt.
- [17<./i/../images/chapter2/blockchain1.png><./i/../images/chapter2/blockchain2.
-png>]
-<i/../images/chapter2/blockchain4.png, id=598, 547.2947pt x 391.4625pt>
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.259 ...ngle Block Content \cite{shrestha2020new}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[16<./i/../images/chapter2/blockchain1.png><./i/../images/chapter2/blockchain2.p
+ng>]
+<i/../images/chapter2/blockchain4.png, id=640, 547.2947pt x 391.4625pt>
 File: i/../images/chapter2/blockchain4.png Graphic file (type png)
 <use i/../images/chapter2/blockchain4.png>
 Package luatex.def Info: i/../images/chapter2/blockchain4.png  used on input li
 ne 266.
 (luatex.def)             Requested size: 304.73137pt x 217.96909pt.
- [18<./i/../images/chapter2/blockchain3.png><./i/../images/chapter2/blockchain4.
-png>]
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.268 ...{Blockchain Types \cite{blockchain_types}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[17<./i/../images/chapter2/blockchain3.png><./i/../images/chapter2/blockchain4.p
+ng>]
 Overfull \hbox (1.78108pt too wide) in paragraph at lines 275--278
 \TU/TimesNewRoman(0)/m/n/10 Although the pro-cess-ing time is re-duced in per-mi
 s-sioned blockchains, the cen-tral-iza-tion of per-mis-sioned blockchains
@@ -1344,7 +1566,19 @@ Overfull \hbox (1.65533pt too wide) in paragraph at lines 282--285
  al-low any-one to join, and are fully de-cen-tral-ized. Pub-lic blockchains
  []
 
-[19] [20]
+[18] [19]
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.311 ...n{Comparison Between Consensus Algorithms.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
 Underfull \hbox (badness 2418) in paragraph at lines 342--343
 []\TU/TimesNewRoman(0)/m/n/10.95 Uti-lizes very less en-ergy com-pared to
  []
@@ -1364,140 +1598,331 @@ Overfull \hbox (9.1472pt too wide) in paragraph at lines 312--373
  [][] 
  []
 
-[21]
-<i/../images/chapter2/blockchain5.png, id=629, 475.02469pt x 257.46187pt>
+[20]
+<i/../images/chapter2/blockchain5.png, id=672, 475.02469pt x 257.46187pt>
 File: i/../images/chapter2/blockchain5.png Graphic file (type png)
 <use i/../images/chapter2/blockchain5.png>
 Package luatex.def Info: i/../images/chapter2/blockchain5.png  used on input li
 ne 379.
 (luatex.def)             Requested size: 338.5863pt x 183.51811pt.
- [22<./i/../images/chapter2/blockchain5.png>]
-<i/../images/chapter2/cloud1.jpg, id=639, 752.8125pt x 502.12593pt>
-File: i/../images/chapter2/cloud1.jpg Graphic file (type jpg)
-<use i/../images/chapter2/cloud1.jpg>
-Package luatex.def Info: i/../images/chapter2/cloud1.jpg  used on input line 40
-0.
-(luatex.def)             Requested size: 338.5863pt x 225.83965pt.
- [23<./i/../images/chapter2/cloud1.jpg>]
-<i/../images/chapter2/cloud2.png, id=650, 1505.625pt x 456.70625pt>
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.381 ...ckchain Generations \cite{blockchain_gen}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[21<./i/../images/chapter2/blockchain5.png>]
+<i/../images/chapter2/cloud2.png, id=685, 1505.625pt x 456.70625pt>
 File: i/../images/chapter2/cloud2.png Graphic file (type png)
 <use i/../images/chapter2/cloud2.png>
 Package luatex.def Info: i/../images/chapter2/cloud2.png  used on input line 41
-6.
-(luatex.def)             Requested size: 483.69684pt x 146.72041pt.
-<i/../images/chapter2/cloud3.png, id=652, 439.04025pt x 295.1025pt>
+0.
+(luatex.def)             Requested size: 435.32419pt x 132.04419pt.
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.412 					\caption{Cloud Services}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[22<./i/../images/chapter2/cloud2.png>]
+<i/../images/chapter2/cloud3.png, id=697, 439.04025pt x 295.1025pt>
 File: i/../images/chapter2/cloud3.png Graphic file (type png)
 <use i/../images/chapter2/cloud3.png>
 Package luatex.def Info: i/../images/chapter2/cloud3.png  used on input line 43
-6.
+0.
 (luatex.def)             Requested size: 241.84842pt x 162.55902pt.
- [24<./i/../images/chapter2/cloud2.png>]
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.432 					\caption{Cloud Deployment Types.}
+                                          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 442.
+(hyperref)                removing `\@ifnextchar' on input line 436.
 
-<i/../images/chapter2/fog1.png, id=663, 320.397pt x 231.264pt>
+<i/../images/chapter2/fog1.png, id=700, 320.397pt x 231.264pt>
 File: i/../images/chapter2/fog1.png Graphic file (type png)
 <use i/../images/chapter2/fog1.png>
-Package luatex.def Info: i/../images/chapter2/fog1.png  used on input line 449.
+Package luatex.def Info: i/../images/chapter2/fog1.png  used on input line 443.
 
 (luatex.def)             Requested size: 241.84842pt x 174.56972pt.
-[25<./i/../images/chapter2/cloud3.png><./i/../images/chapter2/fog1.png>]
-<i/../images/chapter2/fog2.png, id=675, 419.31656pt x 197.23688pt>
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.445 				\caption{Fog Architecture \cite{fogref}.}
+                                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[23<./i/../images/chapter2/cloud3.png>]
+<i/../images/chapter2/fog2.png, id=712, 419.31656pt x 197.23688pt>
 File: i/../images/chapter2/fog2.png Graphic file (type png)
 <use i/../images/chapter2/fog2.png>
-Package luatex.def Info: i/../images/chapter2/fog2.png  used on input line 470.
+Package luatex.def Info: i/../images/chapter2/fog2.png  used on input line 464.
 
-(luatex.def)             Requested size: 483.69684pt x 227.51884pt.
-<i/../images/chapter2/fog3.png, id=677, 913.91437pt x 656.4525pt>
+(luatex.def)             Requested size: 241.84842pt x 113.75941pt.
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.466 					\caption{}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[24<./i/../images/chapter2/fog1.png>]
+<i/../images/chapter2/fog3.png, id=724, 913.91437pt x 656.4525pt>
 File: i/../images/chapter2/fog3.png Graphic file (type png)
 <use i/../images/chapter2/fog3.png>
-Package luatex.def Info: i/../images/chapter2/fog3.png  used on input line 477.
+Package luatex.def Info: i/../images/chapter2/fog3.png  used on input line 471.
 
 (luatex.def)             Requested size: 338.5863pt x 243.19414pt.
 
-[26<./i/../images/chapter2/fog2.png>] [27<./i/../images/chapter2/fog3.png>]
-<i/../images/chapter2/obu1.png, id=691, 433.2915pt x 130.4145pt>
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.473 					\caption{}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[25<./i/../images/chapter2/fog2.png><./i/../images/chapter2/fog3.png>]
+<i/../images/chapter2/obu1.png, id=731, 433.2915pt x 130.4145pt>
 File: i/../images/chapter2/obu1.png Graphic file (type png)
 <use i/../images/chapter2/obu1.png>
-Package luatex.def Info: i/../images/chapter2/obu1.png  used on input line 490.
+Package luatex.def Info: i/../images/chapter2/obu1.png  used on input line 484.
 
 (luatex.def)             Requested size: 483.69684pt x 145.58763pt.
-<i/../images/chapter2/obu2.png, id=696, 570.63188pt x 205.5178pt>
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.486 				\caption{An Example of OBU \cite{oburef}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<i/../images/chapter2/obu2.png, id=737, 570.63188pt x 205.5178pt>
 File: i/../images/chapter2/obu2.png Graphic file (type png)
 <use i/../images/chapter2/obu2.png>
-Package luatex.def Info: i/../images/chapter2/obu2.png  used on input line 505.
+Package luatex.def Info: i/../images/chapter2/obu2.png  used on input line 499.
 
 (luatex.def)             Requested size: 338.5863pt x 121.94435pt.
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.501 ...rable OBU device \cite{petracca2013board}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-[28<./i/../images/chapter2/obu1.png><./i/../images/chapter2/obu2.png>]
-<i/../images/chapter2/rsu1.png, id=709, 1806.75pt x 501.875pt>
+[26<./i/../images/chapter2/obu1.png><./i/../images/chapter2/obu2.png>]
+<i/../images/chapter2/rsu1.png, id=751, 1806.75pt x 501.875pt>
 File: i/../images/chapter2/rsu1.png Graphic file (type png)
 <use i/../images/chapter2/rsu1.png>
-Package luatex.def Info: i/../images/chapter2/rsu1.png  used on input line 521.
+Package luatex.def Info: i/../images/chapter2/rsu1.png  used on input line 515.
 
 (luatex.def)             Requested size: 483.69684pt x 134.35936pt.
-<i/../images/chapter2/network1.png, id=715, 423.83344pt x 282.30469pt>
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.517 				\caption{An Example of RSU \cite{rsuref}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<i/../images/chapter2/network1.png, id=758, 423.83344pt x 282.30469pt>
 File: i/../images/chapter2/network1.png Graphic file (type png)
 <use i/../images/chapter2/network1.png>
 Package luatex.def Info: i/../images/chapter2/network1.png  used on input line 
-547.
+541.
 (luatex.def)             Requested size: 290.22105pt x 193.31723pt.
- [29<./i/../images/chapter2/rsu1.png>] [30<./i/../images/chapter2/network1.png>]
-[31] [32] [33]
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.543 ...l, (b) TCP/IP model \cite{alani2014guide}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[27<./i/../images/chapter2/rsu1.png>] [28<./i/../images/chapter2/network1.png>]
+[29] [30] [31]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 614.
+(hyperref)                removing `\@ifnextchar' on input line 601.
 
-<i/../images/chapter2/paper1-1.png, id=776, 353.82187pt x 336.50719pt>
+<i/../images/chapter2/paper1-1.png, id=816, 353.82187pt x 336.50719pt>
 File: i/../images/chapter2/paper1-1.png Graphic file (type png)
 <use i/../images/chapter2/paper1-1.png>
 Package luatex.def Info: i/../images/chapter2/paper1-1.png  used on input line 
-618.
+605.
 (luatex.def)             Requested size: 266.03473pt x 253.02159pt.
-<i/../images/chapter2/paper1-2.png, id=777, 417.81094pt x 258.9675pt>
+<i/../images/chapter2/paper1-2.png, id=817, 417.81094pt x 258.9675pt>
 File: i/../images/chapter2/paper1-2.png Graphic file (type png)
 <use i/../images/chapter2/paper1-2.png>
 Package luatex.def Info: i/../images/chapter2/paper1-2.png  used on input line 
-620.
+607.
 (luatex.def)             Requested size: 193.47577pt x 119.92073pt.
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.609 ...) The network model for IoV \cite{paper1}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Underfull \hbox (badness 10000) in paragraph at lines 615--624
+
+Underfull \hbox (badness 10000) in paragraph at lines 602--611
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 625.
+(hyperref)                removing `\@ifnextchar' on input line 612.
 
-<i/../images/chapter2/paper2-1.png, id=780, 763.35187pt x 311.66437pt>
+<i/../images/chapter2/paper2-1.png, id=822, 763.35187pt x 311.66437pt>
 File: i/../images/chapter2/paper2-1.png Graphic file (type png)
 <use i/../images/chapter2/paper2-1.png>
 Package luatex.def Info: i/../images/chapter2/paper2-1.png  used on input line 
-630.
+617.
 (luatex.def)             Requested size: 386.95894pt x 157.98608pt.
-[34<./i/../images/chapter2/paper1-1.png><./i/../images/chapter2/paper1-2.png>]
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.619 ...cture of the Proposed Model \cite{paper2}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[32<./i/../images/chapter2/paper1-1.png><./i/../images/chapter2/paper1-2.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 635.
+(hyperref)                removing `\@ifnextchar' on input line 622.
 
-<i/../images/chapter2/paper3-1.png, id=789, 490.08093pt x 277.035pt>
-File: i/../images/chapter2/paper3-1.png Graphic file (type png)
-<use i/../images/chapter2/paper3-1.png>
-Package luatex.def Info: i/../images/chapter2/paper3-1.png  used on input line 
-637.
-(luatex.def)             Requested size: 386.95894pt x 218.74533pt.
-[35<./i/../images/chapter2/paper2-1.png><./i/../images/chapter2/paper3-1.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 643.
+(hyperref)                removing `\@ifnextchar' on input line 624.
 
-<i/../images/chapter2/paper4-1.png, id=797, 529.98pt x 225.09094pt>
+<i/../images/chapter2/paper4-1.png, id=835, 529.98pt x 225.09094pt>
 File: i/../images/chapter2/paper4-1.png Graphic file (type png)
 <use i/../images/chapter2/paper4-1.png>
 Package luatex.def Info: i/../images/chapter2/paper4-1.png  used on input line 
-646.
+627.
 (luatex.def)             Requested size: 435.32419pt x 184.89174pt.
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.629 				\caption{\cite{paper4}}
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[33<./i/../images/chapter2/paper2-1.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 632.
+
+<i/../images/chapter2/paper5-1.png, id=845, 770.12718pt x 499.8675pt>
+File: i/../images/chapter2/paper5-1.png Graphic file (type png)
+<use i/../images/chapter2/paper5-1.png>
+Package luatex.def Info: i/../images/chapter2/paper5-1.png  used on input line 
+635.
+(luatex.def)             Requested size: 338.5863pt x 219.75932pt.
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.637 ...of proposed IoVChain scheme \cite{paper5}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[34<./i/../images/chapter2/paper4-1.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 640.
+
+
+Overfull \hbox (2.73576pt too wide) in paragraph at lines 642--642
+|[]\TU/TimesNewRoman(0)/b/n/12 A Scal-able Pro-to-col for Driv-ing Trust Man-age
+-ment in In-ter-net of Ve-hi-cles with Blockchain
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 642.
+
+<i/../images/chapter2/paper7-1.png, id=856, 812.28468pt x 507.39563pt>
+File: i/../images/chapter2/paper7-1.png Graphic file (type png)
+<use i/../images/chapter2/paper7-1.png>
+Package luatex.def Info: i/../images/chapter2/paper7-1.png  used on input line 
+644.
+(luatex.def)             Requested size: 386.95894pt x 241.71222pt.
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.646 ...with the four-way trade-off \cite{paper7}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[35<./i/../images/chapter2/paper5-1.png>] [36<./i/../images/chapter2/paper7-1.pn
+g>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 651.
@@ -1506,108 +1931,158 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 653.
 
-<i/../images/chapter2/paper5-1.png, id=800, 770.12718pt x 499.8675pt>
-File: i/../images/chapter2/paper5-1.png Graphic file (type png)
-<use i/../images/chapter2/paper5-1.png>
-Package luatex.def Info: i/../images/chapter2/paper5-1.png  used on input line 
-656.
-(luatex.def)             Requested size: 338.5863pt x 219.75932pt.
-[36<./i/../images/chapter2/paper4-1.png>]
-Overfull \hbox (2.73576pt too wide) in paragraph at lines 661--661
-|[]\TU/TimesNewRoman(0)/b/n/12 A Scal-able Pro-to-col for Driv-ing Trust Man-age
--ment in In-ter-net of Ve-hi-cles with Blockchain
- []
+<i/../images/chapter2/paper9-1.png, id=874, 450.18187pt x 216.05719pt>
+File: i/../images/chapter2/paper9-1.png Graphic file (type png)
+<use i/../images/chapter2/paper9-1.png>
+Package luatex.def Info: i/../images/chapter2/paper9-1.png  used on input line 
+655.
+(luatex.def)             Requested size: 435.32419pt x 208.93562pt.
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.657 ... for the EBIoV architecture \cite{paper9}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 661.
 
-<i/../images/chapter2/paper7-1.png, id=808, 812.28468pt x 507.39563pt>
-File: i/../images/chapter2/paper7-1.png Graphic file (type png)
-<use i/../images/chapter2/paper7-1.png>
-Package luatex.def Info: i/../images/chapter2/paper7-1.png  used on input line 
-663.
-(luatex.def)             Requested size: 386.95894pt x 241.71222pt.
-[37<./i/../images/chapter2/paper5-1.png>]
+<i/../images/chapter2/paper10-1.png, id=879, 517.935pt x 395.22656pt>
+File: i/../images/chapter2/paper10-1.png Graphic file (type png)
+<use i/../images/chapter2/paper10-1.png>
+Package luatex.def Info: i/../images/chapter2/paper10-1.png  used on input line
+ 663.
+(luatex.def)             Requested size: 338.5863pt x 258.37776pt.
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.665 ...ture of the proposed model \cite{paper10}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[37<./i/../images/chapter2/paper9-1.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 669.
 
-[38<./i/../images/chapter2/paper7-1.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 671.
-
-<i/../images/chapter2/paper9-1.png, id=823, 450.18187pt x 216.05719pt>
-File: i/../images/chapter2/paper9-1.png Graphic file (type png)
-<use i/../images/chapter2/paper9-1.png>
-Package luatex.def Info: i/../images/chapter2/paper9-1.png  used on input line 
-673.
-(luatex.def)             Requested size: 435.32419pt x 208.93562pt.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 679.
-
-<i/../images/chapter2/paper10-1.png, id=826, 517.935pt x 395.22656pt>
-File: i/../images/chapter2/paper10-1.png Graphic file (type png)
-<use i/../images/chapter2/paper10-1.png>
-Package luatex.def Info: i/../images/chapter2/paper10-1.png  used on input line
- 681.
-(luatex.def)             Requested size: 338.5863pt x 258.37776pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[39<./i/../images/chapter2/paper9-1.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 687.
-
-<i/../images/chapter2/paper11-1.png, id=833, 638.385pt x 305.64188pt>
+<i/../images/chapter2/paper11-1.png, id=889, 638.385pt x 305.64188pt>
 File: i/../images/chapter2/paper11-1.png Graphic file (type png)
 <use i/../images/chapter2/paper11-1.png>
 Package luatex.def Info: i/../images/chapter2/paper11-1.png  used on input line
- 689.
+ 671.
 (luatex.def)             Requested size: 386.95894pt x 185.266pt.
-[40<./i/../images/chapter2/paper10-1.png><./i/../images/chapter2/paper11-1.png>]
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.673 ...ure of the proposed scheme \cite{paper11}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[38<./i/../images/chapter2/paper10-1.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 696.
+(hyperref)                removing `\@ifnextchar' on input line 678.
 
 
-Overfull \hbox (27.40668pt too wide) in paragraph at lines 699--699
+Overfull \hbox (27.40668pt too wide) in paragraph at lines 681--681
 |[]\TU/TimesNewRoman(0)/b/n/12 Hy-brid Cryp-to-graphic Pro-to-col for Se-cure Ve
 -hi-cle Data Shar-ing over Con-sor-tium Blockchain
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 699.
+(hyperref)                removing `\@ifnextchar' on input line 681.
 
+[39<./i/../images/chapter2/paper11-1.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 701.
+(hyperref)                removing `\@ifnextchar' on input line 683.
 
-<i/../images/chapter2/paper14-1.png, id=846, 773.89125pt x 395.22656pt>
+<i/../images/chapter2/paper14-1.png, id=910, 773.89125pt x 395.22656pt>
 File: i/../images/chapter2/paper14-1.png Graphic file (type png)
 <use i/../images/chapter2/paper14-1.png>
 Package luatex.def Info: i/../images/chapter2/paper14-1.png  used on input line
- 703.
+ 685.
 (luatex.def)             Requested size: 362.77263pt x 185.26802pt.
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.687 				\caption{}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[41]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 709.
+(hyperref)                removing `\@ifnextchar' on input line 691.
 
-<i/../images/chapter2/paper15-1.png, id=853, 479.54156pt x 238.64156pt>
+<i/../images/chapter2/paper15-1.png, id=913, 479.54156pt x 238.64156pt>
 File: i/../images/chapter2/paper15-1.png Graphic file (type png)
 <use i/../images/chapter2/paper15-1.png>
 Package luatex.def Info: i/../images/chapter2/paper15-1.png  used on input line
- 711.
+ 693.
 (luatex.def)             Requested size: 362.77263pt x 180.53194pt.
-[42<./i/../images/chapter2/paper14-1.png><./i/../images/chapter2/paper15-1.png>]) (./main.bbl [43]
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.695 				\caption{}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[40<./i/../images/chapter2/paper14-1.png>]
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.704 ...aption{Comparison between Related Schemes.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (24.4843pt too wide) in paragraph at lines 705--767
+ [][] 
+ []
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.771 ...rison between Related Schemes (Continued).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (23.21077pt too wide) in paragraph at lines 772--834
+ [][] 
+ []
+
+) (./main.bbl [41<./i/../images/chapter2/paper15-1.png>] [42] [43]
 ! Undefined control sequence.
 <argument> ... \advance \leftmargin \labelsep \@openbib@code 
                                                   \usecounter {enumiv}\let \...
@@ -1620,25 +2095,15 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 1087) in paragraph at lines 67--73
+Underfull \hbox (badness 1087) in paragraph at lines 62--68
 []\TU/TimesNewRoman(0)/m/n/10 Stephan Cum-mings.  The four blockchain gen-er-a-t
 ions.  []$\TU/lmtt/m/n/10 https://medium.com/the-capital/the-four-
  []
 
-! Misplaced alignment tab character &.
-l.95 \newblock osgearth - 3d mapping engine &
-                                            c++ sdk.
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
 [44
 
 ]
-Underfull \hbox (badness 5431) in paragraph at lines 112--118
+Underfull \hbox (badness 5431) in paragraph at lines 101--107
 []\TU/TimesNewRoman(0)/m/n/10 Eu-ge-nia Wang Kath-leen E. We-grzyn.  Types of bl
 ockchain: Pub-lic, pri-vate, or some-thing in be-
  []
@@ -1648,20 +2113,20 @@ ockchain: Pub-lic, pri-vate, or some-thing in be-
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F553CD5B0E88F9675A4138B2107DB74E;13239.
+(rerunfilecheck)             Checksum: 859815DF5833EA6922B6B4F8AE9C5795;13247.
 )
 
 Here is how much of LuaTeX's memory you used:
- 22377 strings out of 477867
- 195332,1144653 words of node,token memory allocated
+ 23637 strings out of 477867
+ 156263,1144653 words of node,token memory allocated
  718 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 36 attribute, 66 glue_spec
 , 19 attribute_list, 1 write, 13 pdf_action nodes
-   avail lists: 1:1,2:7296,3:417,4:801,5:1223,6:199,7:10947,8:103,9:4577,10:29,1
-1:935
- 41594 multiletter control sequences out of 65536+600000
- 98 fonts using 25309319 bytes
- 77i,12n,84p,2278b,502s stack positions out of 5000i,500n,10000p,200000b,80000s
+   avail lists: 1:1,2:7527,3:420,4:800,5:1222,6:199,7:9886,8:107,9:3537,10:28,11
+:926
+ 42829 multiletter control sequences out of 65536+600000
+ 97 fonts using 25237639 bytes
+ 77i,13n,84p,2331b,504s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Windows/Fonts/timesi.ttf><//?/c:/users/moham/appdata/local/programs/miktex/f
 onts/opentype/public/lm/lmmono10-regular.otf><C:/Windows/Fonts/timesbi.ttf><C:/W
 indows/Fonts/times.ttf><C:/Windows/Fonts/timesbd.ttf><C:/Users/moham/AppData/Loc
@@ -1673,9 +2138,9 @@ sers/moham/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb
 sy10.pfb><C:/Users/moham/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmsy7.pfb><C:/Users/moham/AppData/Local/Programs/MiKTeX/fonts/type1/urw/za
 pfding/uzdr.pfb>
-Output written on main.pdf (57 pages, 4586594 bytes).
+Output written on main.pdf (58 pages, 4370534 bytes).
 
-PDF statistics: 977 PDF objects out of 1000 (max. 8388607)
- 234 named destinations out of 1000 (max. 131072)
+PDF statistics: 1045 PDF objects out of 1200 (max. 8388607)
+ 244 named destinations out of 1000 (max. 131072)
  361 words of extra memory for PDF output out of 10000 (max. 100000000)
 

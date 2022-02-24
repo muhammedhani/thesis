@@ -10,11 +10,6 @@ Omnet++ simulationmanual.
 \newblock \url{https://doc.omnetpp.org/omnetpp/SimulationManual.pdf}.
 \newblock Accessed: Nov. 2021.
 
-\bibitem{openscenegraph}
-Openscenegraph.
-\newblock \url{http://www.openscenegraph.org/index.php/documentation}.
-\newblock Accessed: Nov. 2021.
-
 \bibitem{rsuref}
 A rugged, v2x rsu (roadside unit).
 \newblock \url{https://www.unex.com.tw/rsu/}.
@@ -89,12 +84,6 @@ Merzougui~Salah Eddine, Mohamed~Amine Ferrag, Othmane Friha, and Leandros
 Dmitry Efanov and Pavel Roschin.
 \newblock The all-pervasiveness of the blockchain technology.
 \newblock {\em Procedia computer science}, 123:116--121, 2018.
-
-\bibitem{osgearth}
-Glenn.
-\newblock osgearth - 3d mapping engine & c++ sdk.
-\newblock \url{http://docs.osgearth.org/en/latest/}, 2020.
-\newblock Accessed: Nov. 2021.
 
 \bibitem{paper7}
 Uzair Javaid, Muhammad~Naveed Aman, and Biplab Sikdar.
